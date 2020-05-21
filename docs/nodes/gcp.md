@@ -7,118 +7,118 @@ Node classes list of gcp provider.
 
 ## gcp.database
 
-- **diagrams.gcp.database.Bigtable**, **BigTable** (alias)
-- **diagrams.gcp.database.Datastore**
-- **diagrams.gcp.database.Firestore**
-- **diagrams.gcp.database.Memorystore**
-- **diagrams.gcp.database.Spanner**
-- **diagrams.gcp.database.SQL**
+- ![](../../resources/gcp/database/bigtable.png) **diagrams.gcp.database.Bigtable**, **BigTable** (alias)
+- ![](../../resources/gcp/database/datastore.png) **diagrams.gcp.database.Datastore**
+- ![](../../resources/gcp/database/firestore.png) **diagrams.gcp.database.Firestore**
+- ![](../../resources/gcp/database/memorystore.png) **diagrams.gcp.database.Memorystore**
+- ![](../../resources/gcp/database/spanner.png) **diagrams.gcp.database.Spanner**
+- ![](../../resources/gcp/database/sql.png) **diagrams.gcp.database.SQL**
 
 ## gcp.security
 
-- **diagrams.gcp.security.Iam**
-- **diagrams.gcp.security.IAP**
-- **diagrams.gcp.security.KeyManagementService**, **KMS** (alias)
-- **diagrams.gcp.security.ResourceManager**
-- **diagrams.gcp.security.SecurityCommandCenter**, **SCC** (alias)
-- **diagrams.gcp.security.SecurityScanner**
+- ![](../../resources/gcp/security/iam.png) **diagrams.gcp.security.Iam**
+- ![](../../resources/gcp/security/iap.png) **diagrams.gcp.security.IAP**
+- ![](../../resources/gcp/security/key-management-service.png) **diagrams.gcp.security.KeyManagementService**, **KMS** (alias)
+- ![](../../resources/gcp/security/resource-manager.png) **diagrams.gcp.security.ResourceManager**
+- ![](../../resources/gcp/security/security-command-center.png) **diagrams.gcp.security.SecurityCommandCenter**, **SCC** (alias)
+- ![](../../resources/gcp/security/security-scanner.png) **diagrams.gcp.security.SecurityScanner**
 
 ## gcp.network
 
-- **diagrams.gcp.network.Armor**
-- **diagrams.gcp.network.CDN**
-- **diagrams.gcp.network.DedicatedInterconnect**
-- **diagrams.gcp.network.DNS**
-- **diagrams.gcp.network.ExternalIpAddresses**
-- **diagrams.gcp.network.FirewallRules**
-- **diagrams.gcp.network.LoadBalancing**
-- **diagrams.gcp.network.NAT**
-- **diagrams.gcp.network.Network**
-- **diagrams.gcp.network.PartnerInterconnect**
-- **diagrams.gcp.network.PremiumNetworkTier**
-- **diagrams.gcp.network.Router**
-- **diagrams.gcp.network.Routes**
-- **diagrams.gcp.network.StandardNetworkTier**
-- **diagrams.gcp.network.TrafficDirector**
-- **diagrams.gcp.network.VirtualPrivateCloud**, **VPC** (alias)
-- **diagrams.gcp.network.VPN**
+- ![](../../resources/gcp/network/armor.png) **diagrams.gcp.network.Armor**
+- ![](../../resources/gcp/network/cdn.png) **diagrams.gcp.network.CDN**
+- ![](../../resources/gcp/network/dedicated-interconnect.png) **diagrams.gcp.network.DedicatedInterconnect**
+- ![](../../resources/gcp/network/dns.png) **diagrams.gcp.network.DNS**
+- ![](../../resources/gcp/network/external-ip-addresses.png) **diagrams.gcp.network.ExternalIpAddresses**
+- ![](../../resources/gcp/network/firewall-rules.png) **diagrams.gcp.network.FirewallRules**
+- ![](../../resources/gcp/network/load-balancing.png) **diagrams.gcp.network.LoadBalancing**
+- ![](../../resources/gcp/network/nat.png) **diagrams.gcp.network.NAT**
+- ![](../../resources/gcp/network/network.png) **diagrams.gcp.network.Network**
+- ![](../../resources/gcp/network/partner-interconnect.png) **diagrams.gcp.network.PartnerInterconnect**
+- ![](../../resources/gcp/network/premium-network-tier.png) **diagrams.gcp.network.PremiumNetworkTier**
+- ![](../../resources/gcp/network/router.png) **diagrams.gcp.network.Router**
+- ![](../../resources/gcp/network/routes.png) **diagrams.gcp.network.Routes**
+- ![](../../resources/gcp/network/standard-network-tier.png) **diagrams.gcp.network.StandardNetworkTier**
+- ![](../../resources/gcp/network/traffic-director.png) **diagrams.gcp.network.TrafficDirector**
+- ![](../../resources/gcp/network/virtual-private-cloud.png) **diagrams.gcp.network.VirtualPrivateCloud**, **VPC** (alias)
+- ![](../../resources/gcp/network/vpn.png) **diagrams.gcp.network.VPN**
 
 ## gcp.storage
 
-- **diagrams.gcp.storage.Filestore**
-- **diagrams.gcp.storage.PersistentDisk**
-- **diagrams.gcp.storage.Storage**, **GCS** (alias)
+- ![](../../resources/gcp/storage/filestore.png) **diagrams.gcp.storage.Filestore**
+- ![](../../resources/gcp/storage/persistent-disk.png) **diagrams.gcp.storage.PersistentDisk**
+- ![](../../resources/gcp/storage/storage.png) **diagrams.gcp.storage.Storage**, **GCS** (alias)
 
 ## gcp.iot
 
-- **diagrams.gcp.iot.IotCore**
+- ![](../../resources/gcp/iot/iot-core.png) **diagrams.gcp.iot.IotCore**
 
 ## gcp.compute
 
-- **diagrams.gcp.compute.AppEngine**, **GAE** (alias)
-- **diagrams.gcp.compute.ComputeEngine**, **GCE** (alias)
-- **diagrams.gcp.compute.ContainerOptimizedOS**
-- **diagrams.gcp.compute.Functions**, **GCF** (alias)
-- **diagrams.gcp.compute.GKEOnPrem**
-- **diagrams.gcp.compute.GPU**
-- **diagrams.gcp.compute.KubernetesEngine**, **GKE** (alias)
-- **diagrams.gcp.compute.Run**
+- ![](../../resources/gcp/compute/app-engine.png) **diagrams.gcp.compute.AppEngine**, **GAE** (alias)
+- ![](../../resources/gcp/compute/compute-engine.png) **diagrams.gcp.compute.ComputeEngine**, **GCE** (alias)
+- ![](../../resources/gcp/compute/container-optimized-os.png) **diagrams.gcp.compute.ContainerOptimizedOS**
+- ![](../../resources/gcp/compute/functions.png) **diagrams.gcp.compute.Functions**, **GCF** (alias)
+- ![](../../resources/gcp/compute/gke-on-prem.png) **diagrams.gcp.compute.GKEOnPrem**
+- ![](../../resources/gcp/compute/gpu.png) **diagrams.gcp.compute.GPU**
+- ![](../../resources/gcp/compute/kubernetes-engine.png) **diagrams.gcp.compute.KubernetesEngine**, **GKE** (alias)
+- ![](../../resources/gcp/compute/run.png) **diagrams.gcp.compute.Run**
 
 ## gcp.devtools
 
-- **diagrams.gcp.devtools.Build**
-- **diagrams.gcp.devtools.CodeForIntellij**
-- **diagrams.gcp.devtools.Code**
-- **diagrams.gcp.devtools.ContainerRegistry**, **GCR** (alias)
-- **diagrams.gcp.devtools.GradleAppEnginePlugin**
-- **diagrams.gcp.devtools.IdePlugins**
-- **diagrams.gcp.devtools.MavenAppEnginePlugin**
-- **diagrams.gcp.devtools.Scheduler**
-- **diagrams.gcp.devtools.SDK**
-- **diagrams.gcp.devtools.SourceRepositories**
-- **diagrams.gcp.devtools.Tasks**
-- **diagrams.gcp.devtools.TestLab**
-- **diagrams.gcp.devtools.ToolsForEclipse**
-- **diagrams.gcp.devtools.ToolsForPowershell**
-- **diagrams.gcp.devtools.ToolsForVisualStudio**
+- ![](../../resources/gcp/devtools/build.png) **diagrams.gcp.devtools.Build**
+- ![](../../resources/gcp/devtools/code-for-intellij.png) **diagrams.gcp.devtools.CodeForIntellij**
+- ![](../../resources/gcp/devtools/code.png) **diagrams.gcp.devtools.Code**
+- ![](../../resources/gcp/devtools/container-registry.png) **diagrams.gcp.devtools.ContainerRegistry**, **GCR** (alias)
+- ![](../../resources/gcp/devtools/gradle-app-engine-plugin.png) **diagrams.gcp.devtools.GradleAppEnginePlugin**
+- ![](../../resources/gcp/devtools/ide-plugins.png) **diagrams.gcp.devtools.IdePlugins**
+- ![](../../resources/gcp/devtools/maven-app-engine-plugin.png) **diagrams.gcp.devtools.MavenAppEnginePlugin**
+- ![](../../resources/gcp/devtools/scheduler.png) **diagrams.gcp.devtools.Scheduler**
+- ![](../../resources/gcp/devtools/sdk.png) **diagrams.gcp.devtools.SDK**
+- ![](../../resources/gcp/devtools/source-repositories.png) **diagrams.gcp.devtools.SourceRepositories**
+- ![](../../resources/gcp/devtools/tasks.png) **diagrams.gcp.devtools.Tasks**
+- ![](../../resources/gcp/devtools/test-lab.png) **diagrams.gcp.devtools.TestLab**
+- ![](../../resources/gcp/devtools/tools-for-eclipse.png) **diagrams.gcp.devtools.ToolsForEclipse**
+- ![](../../resources/gcp/devtools/tools-for-powershell.png) **diagrams.gcp.devtools.ToolsForPowershell**
+- ![](../../resources/gcp/devtools/tools-for-visual-studio.png) **diagrams.gcp.devtools.ToolsForVisualStudio**
 
 ## gcp.ml
 
-- **diagrams.gcp.ml.AdvancedSolutionsLab**
-- **diagrams.gcp.ml.AIHub**
-- **diagrams.gcp.ml.AIPlatformDataLabelingService**
-- **diagrams.gcp.ml.AIPlatform**
-- **diagrams.gcp.ml.AutomlNaturalLanguage**
-- **diagrams.gcp.ml.AutomlTables**
-- **diagrams.gcp.ml.AutomlTranslation**
-- **diagrams.gcp.ml.AutomlVideoIntelligence**
-- **diagrams.gcp.ml.AutomlVision**
-- **diagrams.gcp.ml.Automl**, **AutoML** (alias)
-- **diagrams.gcp.ml.DialogFlowEnterpriseEdition**
-- **diagrams.gcp.ml.InferenceAPI**
-- **diagrams.gcp.ml.JobsAPI**
-- **diagrams.gcp.ml.NaturalLanguageAPI**, **NLAPI** (alias)
-- **diagrams.gcp.ml.RecommendationsAI**
-- **diagrams.gcp.ml.SpeechToText**, **STT** (alias)
-- **diagrams.gcp.ml.TextToSpeech**, **TTS** (alias)
-- **diagrams.gcp.ml.TPU**
-- **diagrams.gcp.ml.TranslationAPI**
-- **diagrams.gcp.ml.VideoIntelligenceAPI**
-- **diagrams.gcp.ml.VisionAPI**
+- ![](../../resources/gcp/ml/advanced-solutions-lab.png) **diagrams.gcp.ml.AdvancedSolutionsLab**
+- ![](../../resources/gcp/ml/ai-hub.png) **diagrams.gcp.ml.AIHub**
+- ![](../../resources/gcp/ml/ai-platform-data-labeling-service.png) **diagrams.gcp.ml.AIPlatformDataLabelingService**
+- ![](../../resources/gcp/ml/ai-platform.png) **diagrams.gcp.ml.AIPlatform**
+- ![](../../resources/gcp/ml/automl-natural-language.png) **diagrams.gcp.ml.AutomlNaturalLanguage**
+- ![](../../resources/gcp/ml/automl-tables.png) **diagrams.gcp.ml.AutomlTables**
+- ![](../../resources/gcp/ml/automl-translation.png) **diagrams.gcp.ml.AutomlTranslation**
+- ![](../../resources/gcp/ml/automl-video-intelligence.png) **diagrams.gcp.ml.AutomlVideoIntelligence**
+- ![](../../resources/gcp/ml/automl-vision.png) **diagrams.gcp.ml.AutomlVision**
+- ![](../../resources/gcp/ml/automl.png) **diagrams.gcp.ml.Automl**, **AutoML** (alias)
+- ![](../../resources/gcp/ml/dialog-flow-enterprise-edition.png) **diagrams.gcp.ml.DialogFlowEnterpriseEdition**
+- ![](../../resources/gcp/ml/inference-api.png) **diagrams.gcp.ml.InferenceAPI**
+- ![](../../resources/gcp/ml/jobs-api.png) **diagrams.gcp.ml.JobsAPI**
+- ![](../../resources/gcp/ml/natural-language-api.png) **diagrams.gcp.ml.NaturalLanguageAPI**, **NLAPI** (alias)
+- ![](../../resources/gcp/ml/recommendations-ai.png) **diagrams.gcp.ml.RecommendationsAI**
+- ![](../../resources/gcp/ml/speech-to-text.png) **diagrams.gcp.ml.SpeechToText**, **STT** (alias)
+- ![](../../resources/gcp/ml/text-to-speech.png) **diagrams.gcp.ml.TextToSpeech**, **TTS** (alias)
+- ![](../../resources/gcp/ml/tpu.png) **diagrams.gcp.ml.TPU**
+- ![](../../resources/gcp/ml/translation-api.png) **diagrams.gcp.ml.TranslationAPI**
+- ![](../../resources/gcp/ml/video-intelligence-api.png) **diagrams.gcp.ml.VideoIntelligenceAPI**
+- ![](../../resources/gcp/ml/vision-api.png) **diagrams.gcp.ml.VisionAPI**
 
 ## gcp.migration
 
-- **diagrams.gcp.migration.TransferAppliance**
+- ![](../../resources/gcp/migration/transfer-appliance.png) **diagrams.gcp.migration.TransferAppliance**
 
 ## gcp.analytics
 
-- **diagrams.gcp.analytics.Bigquery**, **BigQuery** (alias)
-- **diagrams.gcp.analytics.Composer**
-- **diagrams.gcp.analytics.DataCatalog**
-- **diagrams.gcp.analytics.DataFusion**
-- **diagrams.gcp.analytics.Dataflow**
-- **diagrams.gcp.analytics.Datalab**
-- **diagrams.gcp.analytics.Dataprep**
-- **diagrams.gcp.analytics.Dataproc**
-- **diagrams.gcp.analytics.Genomics**
-- **diagrams.gcp.analytics.Pubsub**, **PubSub** (alias)
+- ![](../../resources/gcp/analytics/bigquery.png) **diagrams.gcp.analytics.Bigquery**, **BigQuery** (alias)
+- ![](../../resources/gcp/analytics/composer.png) **diagrams.gcp.analytics.Composer**
+- ![](../../resources/gcp/analytics/data-catalog.png) **diagrams.gcp.analytics.DataCatalog**
+- ![](../../resources/gcp/analytics/data-fusion.png) **diagrams.gcp.analytics.DataFusion**
+- ![](../../resources/gcp/analytics/dataflow.png) **diagrams.gcp.analytics.Dataflow**
+- ![](../../resources/gcp/analytics/datalab.png) **diagrams.gcp.analytics.Datalab**
+- ![](../../resources/gcp/analytics/dataprep.png) **diagrams.gcp.analytics.Dataprep**
+- ![](../../resources/gcp/analytics/dataproc.png) **diagrams.gcp.analytics.Dataproc**
+- ![](../../resources/gcp/analytics/genomics.png) **diagrams.gcp.analytics.Genomics**
+- ![](../../resources/gcp/analytics/pubsub.png) **diagrams.gcp.analytics.Pubsub**, **PubSub** (alias)

@@ -47,14 +47,14 @@ def gen_apidoc(pvd: str, typ_paths: dict) -> str:
     def _gen_class_name(path: str) -> str:
         base = os.path.splitext(path)[0]
         name = "".join([up_or_title(pvd, s) for s in base.split("-")])
-        return name
+        return name,path
 
     typ_classes = {}
     for typ, paths in typ_paths.items():
         typ_classes[typ] = []
-        for name in map(_gen_class_name, paths):
+        for name,path in map(_gen_class_name, paths):
             alias = cfg.ALIASES[pvd].get(typ, {}).get(name)
-            typ_classes[typ].append({"name": name, "alias": alias})
+            typ_classes[typ].append({"name": name, "alias": alias,"path":path})
     return tmpl.render(pvd=pvd, typ_classes=typ_classes)
 
 

@@ -7,5 +7,5 @@ Node classes list of {{ pvd }} provider.
 {% for typ, classes in typ_classes.items() %}
 ## {{ pvd }}.{{ typ }}
 {% for class in classes %}
-- ![](../../resources/{{ pvd }}/{{ typ }}/{{ class['path'] }}) **diagrams.{{ pvd }}.{{ typ }}.{{ class['name'] }}**{% if class['alias'] %}, **{{ class['alias'] }}** (alias){% endif %}{% endfor %}
+- ![](../../resources/{{ pvd }}/{{ typ }}/{{ class['path'] }} =75x75) **diagrams.{{ pvd }}.{{ typ }}.{{ class['name'] }}**{% if class['alias'] %}, **{{ class['alias'] }}** (alias){% endif %}{% endfor %}
 {% endfor %}

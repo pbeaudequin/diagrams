@@ -7,187 +7,187 @@ Node classes list of azure provider.
 
 ## azure.database
 
-- ![](../../resources/azure/database/blob-storage.png =75x75) **diagrams.azure.database.BlobStorage**
-- ![](../../resources/azure/database/cache-for-redis.png =75x75) **diagrams.azure.database.CacheForRedis**
-- ![](../../resources/azure/database/cosmos-db.png =75x75) **diagrams.azure.database.CosmosDb**
-- ![](../../resources/azure/database/data-lake.png =75x75) **diagrams.azure.database.DataLake**
-- ![](../../resources/azure/database/database-for-mariadb-servers.png =75x75) **diagrams.azure.database.DatabaseForMariadbServers**
-- ![](../../resources/azure/database/database-for-mysql-servers.png =75x75) **diagrams.azure.database.DatabaseForMysqlServers**
-- ![](../../resources/azure/database/database-for-postgresql-servers.png =75x75) **diagrams.azure.database.DatabaseForPostgresqlServers**
-- ![](../../resources/azure/database/elastic-database-pools.png =75x75) **diagrams.azure.database.ElasticDatabasePools**
-- ![](../../resources/azure/database/elastic-job-agents.png =75x75) **diagrams.azure.database.ElasticJobAgents**
-- ![](../../resources/azure/database/managed-databases.png =75x75) **diagrams.azure.database.ManagedDatabases**
-- ![](../../resources/azure/database/sql-databases.png =75x75) **diagrams.azure.database.SQLDatabases**
-- ![](../../resources/azure/database/sql-datawarehouse.png =75x75) **diagrams.azure.database.SQLDatawarehouse**
-- ![](../../resources/azure/database/sql-managed-instances.png =75x75) **diagrams.azure.database.SQLManagedInstances**
-- ![](../../resources/azure/database/sql-server-stretch-databases.png =75x75) **diagrams.azure.database.SQLServerStretchDatabases**
-- ![](../../resources/azure/database/sql-servers.png =75x75) **diagrams.azure.database.SQLServers**
-- ![](../../resources/azure/database/virtual-clusters.png =75x75) **diagrams.azure.database.VirtualClusters**
-- ![](../../resources/azure/database/virtual-datacenter.png =75x75) **diagrams.azure.database.VirtualDatacenter**
+- <img src="../../resources/azure/database/blob-storage.png" width="75" height="75"/> **diagrams.azure.database.BlobStorage**
+- <img src="../../resources/azure/database/cache-for-redis.png" width="75" height="75"/> **diagrams.azure.database.CacheForRedis**
+- <img src="../../resources/azure/database/cosmos-db.png" width="75" height="75"/> **diagrams.azure.database.CosmosDb**
+- <img src="../../resources/azure/database/data-lake.png" width="75" height="75"/> **diagrams.azure.database.DataLake**
+- <img src="../../resources/azure/database/database-for-mariadb-servers.png" width="75" height="75"/> **diagrams.azure.database.DatabaseForMariadbServers**
+- <img src="../../resources/azure/database/database-for-mysql-servers.png" width="75" height="75"/> **diagrams.azure.database.DatabaseForMysqlServers**
+- <img src="../../resources/azure/database/database-for-postgresql-servers.png" width="75" height="75"/> **diagrams.azure.database.DatabaseForPostgresqlServers**
+- <img src="../../resources/azure/database/elastic-database-pools.png" width="75" height="75"/> **diagrams.azure.database.ElasticDatabasePools**
+- <img src="../../resources/azure/database/elastic-job-agents.png" width="75" height="75"/> **diagrams.azure.database.ElasticJobAgents**
+- <img src="../../resources/azure/database/managed-databases.png" width="75" height="75"/> **diagrams.azure.database.ManagedDatabases**
+- <img src="../../resources/azure/database/sql-databases.png" width="75" height="75"/> **diagrams.azure.database.SQLDatabases**
+- <img src="../../resources/azure/database/sql-datawarehouse.png" width="75" height="75"/> **diagrams.azure.database.SQLDatawarehouse**
+- <img src="../../resources/azure/database/sql-managed-instances.png" width="75" height="75"/> **diagrams.azure.database.SQLManagedInstances**
+- <img src="../../resources/azure/database/sql-server-stretch-databases.png" width="75" height="75"/> **diagrams.azure.database.SQLServerStretchDatabases**
+- <img src="../../resources/azure/database/sql-servers.png" width="75" height="75"/> **diagrams.azure.database.SQLServers**
+- <img src="../../resources/azure/database/virtual-clusters.png" width="75" height="75"/> **diagrams.azure.database.VirtualClusters**
+- <img src="../../resources/azure/database/virtual-datacenter.png" width="75" height="75"/> **diagrams.azure.database.VirtualDatacenter**
 
 ## azure.devops
 
-- ![](../../resources/azure/devops/application-insights.png =75x75) **diagrams.azure.devops.ApplicationInsights**
-- ![](../../resources/azure/devops/artifacts.png =75x75) **diagrams.azure.devops.Artifacts**
-- ![](../../resources/azure/devops/boards.png =75x75) **diagrams.azure.devops.Boards**
-- ![](../../resources/azure/devops/devops.png =75x75) **diagrams.azure.devops.Devops**
-- ![](../../resources/azure/devops/devtest-labs.png =75x75) **diagrams.azure.devops.DevtestLabs**
-- ![](../../resources/azure/devops/pipelines.png =75x75) **diagrams.azure.devops.Pipelines**
-- ![](../../resources/azure/devops/repos.png =75x75) **diagrams.azure.devops.Repos**
-- ![](../../resources/azure/devops/test-plans.png =75x75) **diagrams.azure.devops.TestPlans**
+- <img src="../../resources/azure/devops/application-insights.png" width="75" height="75"/> **diagrams.azure.devops.ApplicationInsights**
+- <img src="../../resources/azure/devops/artifacts.png" width="75" height="75"/> **diagrams.azure.devops.Artifacts**
+- <img src="../../resources/azure/devops/boards.png" width="75" height="75"/> **diagrams.azure.devops.Boards**
+- <img src="../../resources/azure/devops/devops.png" width="75" height="75"/> **diagrams.azure.devops.Devops**
+- <img src="../../resources/azure/devops/devtest-labs.png" width="75" height="75"/> **diagrams.azure.devops.DevtestLabs**
+- <img src="../../resources/azure/devops/pipelines.png" width="75" height="75"/> **diagrams.azure.devops.Pipelines**
+- <img src="../../resources/azure/devops/repos.png" width="75" height="75"/> **diagrams.azure.devops.Repos**
+- <img src="../../resources/azure/devops/test-plans.png" width="75" height="75"/> **diagrams.azure.devops.TestPlans**
 
 ## azure.identity
 
-- ![](../../resources/azure/identity/access-review.png =75x75) **diagrams.azure.identity.AccessReview**
-- ![](../../resources/azure/identity/active-directory-connect-health.png =75x75) **diagrams.azure.identity.ActiveDirectoryConnectHealth**
-- ![](../../resources/azure/identity/active-directory.png =75x75) **diagrams.azure.identity.ActiveDirectory**
-- ![](../../resources/azure/identity/ad-b2c.png =75x75) **diagrams.azure.identity.ADB2C**
-- ![](../../resources/azure/identity/ad-domain-services.png =75x75) **diagrams.azure.identity.ADDomainServices**
-- ![](../../resources/azure/identity/ad-identity-protection.png =75x75) **diagrams.azure.identity.ADIdentityProtection**
-- ![](../../resources/azure/identity/ad-privileged-identity-management.png =75x75) **diagrams.azure.identity.ADPrivilegedIdentityManagement**
-- ![](../../resources/azure/identity/app-registrations.png =75x75) **diagrams.azure.identity.AppRegistrations**
-- ![](../../resources/azure/identity/conditional-access.png =75x75) **diagrams.azure.identity.ConditionalAccess**
-- ![](../../resources/azure/identity/enterprise-applications.png =75x75) **diagrams.azure.identity.EnterpriseApplications**
-- ![](../../resources/azure/identity/identity-governance.png =75x75) **diagrams.azure.identity.IdentityGovernance**
-- ![](../../resources/azure/identity/information-protection.png =75x75) **diagrams.azure.identity.InformationProtection**
-- ![](../../resources/azure/identity/managed-identities.png =75x75) **diagrams.azure.identity.ManagedIdentities**
+- <img src="../../resources/azure/identity/access-review.png" width="75" height="75"/> **diagrams.azure.identity.AccessReview**
+- <img src="../../resources/azure/identity/active-directory-connect-health.png" width="75" height="75"/> **diagrams.azure.identity.ActiveDirectoryConnectHealth**
+- <img src="../../resources/azure/identity/active-directory.png" width="75" height="75"/> **diagrams.azure.identity.ActiveDirectory**
+- <img src="../../resources/azure/identity/ad-b2c.png" width="75" height="75"/> **diagrams.azure.identity.ADB2C**
+- <img src="../../resources/azure/identity/ad-domain-services.png" width="75" height="75"/> **diagrams.azure.identity.ADDomainServices**
+- <img src="../../resources/azure/identity/ad-identity-protection.png" width="75" height="75"/> **diagrams.azure.identity.ADIdentityProtection**
+- <img src="../../resources/azure/identity/ad-privileged-identity-management.png" width="75" height="75"/> **diagrams.azure.identity.ADPrivilegedIdentityManagement**
+- <img src="../../resources/azure/identity/app-registrations.png" width="75" height="75"/> **diagrams.azure.identity.AppRegistrations**
+- <img src="../../resources/azure/identity/conditional-access.png" width="75" height="75"/> **diagrams.azure.identity.ConditionalAccess**
+- <img src="../../resources/azure/identity/enterprise-applications.png" width="75" height="75"/> **diagrams.azure.identity.EnterpriseApplications**
+- <img src="../../resources/azure/identity/identity-governance.png" width="75" height="75"/> **diagrams.azure.identity.IdentityGovernance**
+- <img src="../../resources/azure/identity/information-protection.png" width="75" height="75"/> **diagrams.azure.identity.InformationProtection**
+- <img src="../../resources/azure/identity/managed-identities.png" width="75" height="75"/> **diagrams.azure.identity.ManagedIdentities**
 
 ## azure.security
 
-- ![](../../resources/azure/security/key-vaults.png =75x75) **diagrams.azure.security.KeyVaults**
-- ![](../../resources/azure/security/security-center.png =75x75) **diagrams.azure.security.SecurityCenter**
-- ![](../../resources/azure/security/sentinel.png =75x75) **diagrams.azure.security.Sentinel**
+- <img src="../../resources/azure/security/key-vaults.png" width="75" height="75"/> **diagrams.azure.security.KeyVaults**
+- <img src="../../resources/azure/security/security-center.png" width="75" height="75"/> **diagrams.azure.security.SecurityCenter**
+- <img src="../../resources/azure/security/sentinel.png" width="75" height="75"/> **diagrams.azure.security.Sentinel**
 
 ## azure.web
 
-- ![](../../resources/azure/web/api-connections.png =75x75) **diagrams.azure.web.APIConnections**
-- ![](../../resources/azure/web/app-service-certificates.png =75x75) **diagrams.azure.web.AppServiceCertificates**
-- ![](../../resources/azure/web/app-service-domains.png =75x75) **diagrams.azure.web.AppServiceDomains**
-- ![](../../resources/azure/web/app-service-environments.png =75x75) **diagrams.azure.web.AppServiceEnvironments**
-- ![](../../resources/azure/web/app-service-plans.png =75x75) **diagrams.azure.web.AppServicePlans**
-- ![](../../resources/azure/web/app-services.png =75x75) **diagrams.azure.web.AppServices**
-- ![](../../resources/azure/web/media-services.png =75x75) **diagrams.azure.web.MediaServices**
-- ![](../../resources/azure/web/notification-hub-namespaces.png =75x75) **diagrams.azure.web.NotificationHubNamespaces**
-- ![](../../resources/azure/web/search.png =75x75) **diagrams.azure.web.Search**
-- ![](../../resources/azure/web/signalr.png =75x75) **diagrams.azure.web.Signalr**
+- <img src="../../resources/azure/web/api-connections.png" width="75" height="75"/> **diagrams.azure.web.APIConnections**
+- <img src="../../resources/azure/web/app-service-certificates.png" width="75" height="75"/> **diagrams.azure.web.AppServiceCertificates**
+- <img src="../../resources/azure/web/app-service-domains.png" width="75" height="75"/> **diagrams.azure.web.AppServiceDomains**
+- <img src="../../resources/azure/web/app-service-environments.png" width="75" height="75"/> **diagrams.azure.web.AppServiceEnvironments**
+- <img src="../../resources/azure/web/app-service-plans.png" width="75" height="75"/> **diagrams.azure.web.AppServicePlans**
+- <img src="../../resources/azure/web/app-services.png" width="75" height="75"/> **diagrams.azure.web.AppServices**
+- <img src="../../resources/azure/web/media-services.png" width="75" height="75"/> **diagrams.azure.web.MediaServices**
+- <img src="../../resources/azure/web/notification-hub-namespaces.png" width="75" height="75"/> **diagrams.azure.web.NotificationHubNamespaces**
+- <img src="../../resources/azure/web/search.png" width="75" height="75"/> **diagrams.azure.web.Search**
+- <img src="../../resources/azure/web/signalr.png" width="75" height="75"/> **diagrams.azure.web.Signalr**
 
 ## azure.network
 
-- ![](../../resources/azure/network/application-gateway.png =75x75) **diagrams.azure.network.ApplicationGateway**
-- ![](../../resources/azure/network/application-security-groups.png =75x75) **diagrams.azure.network.ApplicationSecurityGroups**
-- ![](../../resources/azure/network/cdn-profiles.png =75x75) **diagrams.azure.network.CDNProfiles**
-- ![](../../resources/azure/network/connections.png =75x75) **diagrams.azure.network.Connections**
-- ![](../../resources/azure/network/ddos-protection-plans.png =75x75) **diagrams.azure.network.DDOSProtectionPlans**
-- ![](../../resources/azure/network/dns-private-zones.png =75x75) **diagrams.azure.network.DNSPrivateZones**
-- ![](../../resources/azure/network/dns-zones.png =75x75) **diagrams.azure.network.DNSZones**
-- ![](../../resources/azure/network/expressroute-circuits.png =75x75) **diagrams.azure.network.ExpressrouteCircuits**
-- ![](../../resources/azure/network/firewall.png =75x75) **diagrams.azure.network.Firewall**
-- ![](../../resources/azure/network/front-doors.png =75x75) **diagrams.azure.network.FrontDoors**
-- ![](../../resources/azure/network/load-balancers.png =75x75) **diagrams.azure.network.LoadBalancers**
-- ![](../../resources/azure/network/local-network-gateways.png =75x75) **diagrams.azure.network.LocalNetworkGateways**
-- ![](../../resources/azure/network/network-interfaces.png =75x75) **diagrams.azure.network.NetworkInterfaces**
-- ![](../../resources/azure/network/network-security-groups-classic.png =75x75) **diagrams.azure.network.NetworkSecurityGroupsClassic**
-- ![](../../resources/azure/network/network-watcher.png =75x75) **diagrams.azure.network.NetworkWatcher**
-- ![](../../resources/azure/network/on-premises-data-gateways.png =75x75) **diagrams.azure.network.OnPremisesDataGateways**
-- ![](../../resources/azure/network/public-ip-addresses.png =75x75) **diagrams.azure.network.PublicIpAddresses**
-- ![](../../resources/azure/network/reserved-ip-addresses-classic.png =75x75) **diagrams.azure.network.ReservedIpAddressesClassic**
-- ![](../../resources/azure/network/route-filters.png =75x75) **diagrams.azure.network.RouteFilters**
-- ![](../../resources/azure/network/route-tables.png =75x75) **diagrams.azure.network.RouteTables**
-- ![](../../resources/azure/network/service-endpoint-policies.png =75x75) **diagrams.azure.network.ServiceEndpointPolicies**
-- ![](../../resources/azure/network/traffic-manager-profiles.png =75x75) **diagrams.azure.network.TrafficManagerProfiles**
-- ![](../../resources/azure/network/virtual-network-classic.png =75x75) **diagrams.azure.network.VirtualNetworkClassic**
-- ![](../../resources/azure/network/virtual-network-gateways.png =75x75) **diagrams.azure.network.VirtualNetworkGateways**
-- ![](../../resources/azure/network/virtual-networks.png =75x75) **diagrams.azure.network.VirtualNetworks**
-- ![](../../resources/azure/network/virtual-wans.png =75x75) **diagrams.azure.network.VirtualWans**
+- <img src="../../resources/azure/network/application-gateway.png" width="75" height="75"/> **diagrams.azure.network.ApplicationGateway**
+- <img src="../../resources/azure/network/application-security-groups.png" width="75" height="75"/> **diagrams.azure.network.ApplicationSecurityGroups**
+- <img src="../../resources/azure/network/cdn-profiles.png" width="75" height="75"/> **diagrams.azure.network.CDNProfiles**
+- <img src="../../resources/azure/network/connections.png" width="75" height="75"/> **diagrams.azure.network.Connections**
+- <img src="../../resources/azure/network/ddos-protection-plans.png" width="75" height="75"/> **diagrams.azure.network.DDOSProtectionPlans**
+- <img src="../../resources/azure/network/dns-private-zones.png" width="75" height="75"/> **diagrams.azure.network.DNSPrivateZones**
+- <img src="../../resources/azure/network/dns-zones.png" width="75" height="75"/> **diagrams.azure.network.DNSZones**
+- <img src="../../resources/azure/network/expressroute-circuits.png" width="75" height="75"/> **diagrams.azure.network.ExpressrouteCircuits**
+- <img src="../../resources/azure/network/firewall.png" width="75" height="75"/> **diagrams.azure.network.Firewall**
+- <img src="../../resources/azure/network/front-doors.png" width="75" height="75"/> **diagrams.azure.network.FrontDoors**
+- <img src="../../resources/azure/network/load-balancers.png" width="75" height="75"/> **diagrams.azure.network.LoadBalancers**
+- <img src="../../resources/azure/network/local-network-gateways.png" width="75" height="75"/> **diagrams.azure.network.LocalNetworkGateways**
+- <img src="../../resources/azure/network/network-interfaces.png" width="75" height="75"/> **diagrams.azure.network.NetworkInterfaces**
+- <img src="../../resources/azure/network/network-security-groups-classic.png" width="75" height="75"/> **diagrams.azure.network.NetworkSecurityGroupsClassic**
+- <img src="../../resources/azure/network/network-watcher.png" width="75" height="75"/> **diagrams.azure.network.NetworkWatcher**
+- <img src="../../resources/azure/network/on-premises-data-gateways.png" width="75" height="75"/> **diagrams.azure.network.OnPremisesDataGateways**
+- <img src="../../resources/azure/network/public-ip-addresses.png" width="75" height="75"/> **diagrams.azure.network.PublicIpAddresses**
+- <img src="../../resources/azure/network/reserved-ip-addresses-classic.png" width="75" height="75"/> **diagrams.azure.network.ReservedIpAddressesClassic**
+- <img src="../../resources/azure/network/route-filters.png" width="75" height="75"/> **diagrams.azure.network.RouteFilters**
+- <img src="../../resources/azure/network/route-tables.png" width="75" height="75"/> **diagrams.azure.network.RouteTables**
+- <img src="../../resources/azure/network/service-endpoint-policies.png" width="75" height="75"/> **diagrams.azure.network.ServiceEndpointPolicies**
+- <img src="../../resources/azure/network/traffic-manager-profiles.png" width="75" height="75"/> **diagrams.azure.network.TrafficManagerProfiles**
+- <img src="../../resources/azure/network/virtual-network-classic.png" width="75" height="75"/> **diagrams.azure.network.VirtualNetworkClassic**
+- <img src="../../resources/azure/network/virtual-network-gateways.png" width="75" height="75"/> **diagrams.azure.network.VirtualNetworkGateways**
+- <img src="../../resources/azure/network/virtual-networks.png" width="75" height="75"/> **diagrams.azure.network.VirtualNetworks**
+- <img src="../../resources/azure/network/virtual-wans.png" width="75" height="75"/> **diagrams.azure.network.VirtualWans**
 
 ## azure.storage
 
-- ![](../../resources/azure/storage/archive-storage.png =75x75) **diagrams.azure.storage.ArchiveStorage**
-- ![](../../resources/azure/storage/azurefxtedgefiler.png =75x75) **diagrams.azure.storage.Azurefxtedgefiler**
-- ![](../../resources/azure/storage/blob-storage.png =75x75) **diagrams.azure.storage.BlobStorage**
-- ![](../../resources/azure/storage/data-box-edge---data-box-gateway.png =75x75) **diagrams.azure.storage.DataBoxEdgeDataBoxGateway**
-- ![](../../resources/azure/storage/data-box.png =75x75) **diagrams.azure.storage.DataBox**
-- ![](../../resources/azure/storage/data-lake-storage.png =75x75) **diagrams.azure.storage.DataLakeStorage**
-- ![](../../resources/azure/storage/general-storage.png =75x75) **diagrams.azure.storage.GeneralStorage**
-- ![](../../resources/azure/storage/netapp-files.png =75x75) **diagrams.azure.storage.NetappFiles**
-- ![](../../resources/azure/storage/queues-storage.png =75x75) **diagrams.azure.storage.QueuesStorage**
-- ![](../../resources/azure/storage/storage-accounts-classic.png =75x75) **diagrams.azure.storage.StorageAccountsClassic**
-- ![](../../resources/azure/storage/storage-accounts.png =75x75) **diagrams.azure.storage.StorageAccounts**
-- ![](../../resources/azure/storage/storage-explorer.png =75x75) **diagrams.azure.storage.StorageExplorer**
-- ![](../../resources/azure/storage/storage-sync-services.png =75x75) **diagrams.azure.storage.StorageSyncServices**
-- ![](../../resources/azure/storage/storsimple-data-managers.png =75x75) **diagrams.azure.storage.StorsimpleDataManagers**
-- ![](../../resources/azure/storage/storsimple-device-managers.png =75x75) **diagrams.azure.storage.StorsimpleDeviceManagers**
-- ![](../../resources/azure/storage/table-storage.png =75x75) **diagrams.azure.storage.TableStorage**
+- <img src="../../resources/azure/storage/archive-storage.png" width="75" height="75"/> **diagrams.azure.storage.ArchiveStorage**
+- <img src="../../resources/azure/storage/azurefxtedgefiler.png" width="75" height="75"/> **diagrams.azure.storage.Azurefxtedgefiler**
+- <img src="../../resources/azure/storage/blob-storage.png" width="75" height="75"/> **diagrams.azure.storage.BlobStorage**
+- <img src="../../resources/azure/storage/data-box-edge---data-box-gateway.png" width="75" height="75"/> **diagrams.azure.storage.DataBoxEdgeDataBoxGateway**
+- <img src="../../resources/azure/storage/data-box.png" width="75" height="75"/> **diagrams.azure.storage.DataBox**
+- <img src="../../resources/azure/storage/data-lake-storage.png" width="75" height="75"/> **diagrams.azure.storage.DataLakeStorage**
+- <img src="../../resources/azure/storage/general-storage.png" width="75" height="75"/> **diagrams.azure.storage.GeneralStorage**
+- <img src="../../resources/azure/storage/netapp-files.png" width="75" height="75"/> **diagrams.azure.storage.NetappFiles**
+- <img src="../../resources/azure/storage/queues-storage.png" width="75" height="75"/> **diagrams.azure.storage.QueuesStorage**
+- <img src="../../resources/azure/storage/storage-accounts-classic.png" width="75" height="75"/> **diagrams.azure.storage.StorageAccountsClassic**
+- <img src="../../resources/azure/storage/storage-accounts.png" width="75" height="75"/> **diagrams.azure.storage.StorageAccounts**
+- <img src="../../resources/azure/storage/storage-explorer.png" width="75" height="75"/> **diagrams.azure.storage.StorageExplorer**
+- <img src="../../resources/azure/storage/storage-sync-services.png" width="75" height="75"/> **diagrams.azure.storage.StorageSyncServices**
+- <img src="../../resources/azure/storage/storsimple-data-managers.png" width="75" height="75"/> **diagrams.azure.storage.StorsimpleDataManagers**
+- <img src="../../resources/azure/storage/storsimple-device-managers.png" width="75" height="75"/> **diagrams.azure.storage.StorsimpleDeviceManagers**
+- <img src="../../resources/azure/storage/table-storage.png" width="75" height="75"/> **diagrams.azure.storage.TableStorage**
 
 ## azure.iot
 
-- ![](../../resources/azure/iot/device-provisioning-services.png =75x75) **diagrams.azure.iot.DeviceProvisioningServices**
-- ![](../../resources/azure/iot/digital-twins.png =75x75) **diagrams.azure.iot.DigitalTwins**
-- ![](../../resources/azure/iot/iot-central-applications.png =75x75) **diagrams.azure.iot.IotCentralApplications**
-- ![](../../resources/azure/iot/iot-hub-security.png =75x75) **diagrams.azure.iot.IotHubSecurity**
-- ![](../../resources/azure/iot/iot-hub.png =75x75) **diagrams.azure.iot.IotHub**
-- ![](../../resources/azure/iot/maps.png =75x75) **diagrams.azure.iot.Maps**
-- ![](../../resources/azure/iot/sphere.png =75x75) **diagrams.azure.iot.Sphere**
-- ![](../../resources/azure/iot/time-series-insights-environments.png =75x75) **diagrams.azure.iot.TimeSeriesInsightsEnvironments**
-- ![](../../resources/azure/iot/time-series-insights-events-sources.png =75x75) **diagrams.azure.iot.TimeSeriesInsightsEventsSources**
-- ![](../../resources/azure/iot/windows-10-iot-core-services.png =75x75) **diagrams.azure.iot.Windows10IotCoreServices**
+- <img src="../../resources/azure/iot/device-provisioning-services.png" width="75" height="75"/> **diagrams.azure.iot.DeviceProvisioningServices**
+- <img src="../../resources/azure/iot/digital-twins.png" width="75" height="75"/> **diagrams.azure.iot.DigitalTwins**
+- <img src="../../resources/azure/iot/iot-central-applications.png" width="75" height="75"/> **diagrams.azure.iot.IotCentralApplications**
+- <img src="../../resources/azure/iot/iot-hub-security.png" width="75" height="75"/> **diagrams.azure.iot.IotHubSecurity**
+- <img src="../../resources/azure/iot/iot-hub.png" width="75" height="75"/> **diagrams.azure.iot.IotHub**
+- <img src="../../resources/azure/iot/maps.png" width="75" height="75"/> **diagrams.azure.iot.Maps**
+- <img src="../../resources/azure/iot/sphere.png" width="75" height="75"/> **diagrams.azure.iot.Sphere**
+- <img src="../../resources/azure/iot/time-series-insights-environments.png" width="75" height="75"/> **diagrams.azure.iot.TimeSeriesInsightsEnvironments**
+- <img src="../../resources/azure/iot/time-series-insights-events-sources.png" width="75" height="75"/> **diagrams.azure.iot.TimeSeriesInsightsEventsSources**
+- <img src="../../resources/azure/iot/windows-10-iot-core-services.png" width="75" height="75"/> **diagrams.azure.iot.Windows10IotCoreServices**
 
 ## azure.compute
 
-- ![](../../resources/azure/compute/availability-sets.png =75x75) **diagrams.azure.compute.AvailabilitySets**
-- ![](../../resources/azure/compute/batch-accounts.png =75x75) **diagrams.azure.compute.BatchAccounts**
-- ![](../../resources/azure/compute/citrix-virtual-desktops-essentials.png =75x75) **diagrams.azure.compute.CitrixVirtualDesktopsEssentials**
-- ![](../../resources/azure/compute/cloud-services-classic.png =75x75) **diagrams.azure.compute.CloudServicesClassic**
-- ![](../../resources/azure/compute/cloud-services.png =75x75) **diagrams.azure.compute.CloudServices**
-- ![](../../resources/azure/compute/cloudsimple-virtual-machines.png =75x75) **diagrams.azure.compute.CloudsimpleVirtualMachines**
-- ![](../../resources/azure/compute/container-instances.png =75x75) **diagrams.azure.compute.ContainerInstances**
-- ![](../../resources/azure/compute/container-registries.png =75x75) **diagrams.azure.compute.ContainerRegistries**, **ACR** (alias)
-- ![](../../resources/azure/compute/disk-snapshots.png =75x75) **diagrams.azure.compute.DiskSnapshots**
-- ![](../../resources/azure/compute/disks.png =75x75) **diagrams.azure.compute.Disks**
-- ![](../../resources/azure/compute/function-apps.png =75x75) **diagrams.azure.compute.FunctionApps**
-- ![](../../resources/azure/compute/kubernetes-services.png =75x75) **diagrams.azure.compute.KubernetesServices**, **AKS** (alias)
-- ![](../../resources/azure/compute/mesh-applications.png =75x75) **diagrams.azure.compute.MeshApplications**
-- ![](../../resources/azure/compute/sap-hana-on-azure.png =75x75) **diagrams.azure.compute.SAPHANAOnAzure**
-- ![](../../resources/azure/compute/service-fabric-clusters.png =75x75) **diagrams.azure.compute.ServiceFabricClusters**
-- ![](../../resources/azure/compute/vm-classic.png =75x75) **diagrams.azure.compute.VMClassic**
-- ![](../../resources/azure/compute/vm-images.png =75x75) **diagrams.azure.compute.VMImages**
-- ![](../../resources/azure/compute/vm-linux.png =75x75) **diagrams.azure.compute.VMLinux**
-- ![](../../resources/azure/compute/vm-windows.png =75x75) **diagrams.azure.compute.VMWindows**
-- ![](../../resources/azure/compute/vm.png =75x75) **diagrams.azure.compute.VM**
+- <img src="../../resources/azure/compute/availability-sets.png" width="75" height="75"/> **diagrams.azure.compute.AvailabilitySets**
+- <img src="../../resources/azure/compute/batch-accounts.png" width="75" height="75"/> **diagrams.azure.compute.BatchAccounts**
+- <img src="../../resources/azure/compute/citrix-virtual-desktops-essentials.png" width="75" height="75"/> **diagrams.azure.compute.CitrixVirtualDesktopsEssentials**
+- <img src="../../resources/azure/compute/cloud-services-classic.png" width="75" height="75"/> **diagrams.azure.compute.CloudServicesClassic**
+- <img src="../../resources/azure/compute/cloud-services.png" width="75" height="75"/> **diagrams.azure.compute.CloudServices**
+- <img src="../../resources/azure/compute/cloudsimple-virtual-machines.png" width="75" height="75"/> **diagrams.azure.compute.CloudsimpleVirtualMachines**
+- <img src="../../resources/azure/compute/container-instances.png" width="75" height="75"/> **diagrams.azure.compute.ContainerInstances**
+- <img src="../../resources/azure/compute/container-registries.png" width="75" height="75"/> **diagrams.azure.compute.ContainerRegistries**, **ACR** (alias)
+- <img src="../../resources/azure/compute/disk-snapshots.png" width="75" height="75"/> **diagrams.azure.compute.DiskSnapshots**
+- <img src="../../resources/azure/compute/disks.png" width="75" height="75"/> **diagrams.azure.compute.Disks**
+- <img src="../../resources/azure/compute/function-apps.png" width="75" height="75"/> **diagrams.azure.compute.FunctionApps**
+- <img src="../../resources/azure/compute/kubernetes-services.png" width="75" height="75"/> **diagrams.azure.compute.KubernetesServices**, **AKS** (alias)
+- <img src="../../resources/azure/compute/mesh-applications.png" width="75" height="75"/> **diagrams.azure.compute.MeshApplications**
+- <img src="../../resources/azure/compute/sap-hana-on-azure.png" width="75" height="75"/> **diagrams.azure.compute.SAPHANAOnAzure**
+- <img src="../../resources/azure/compute/service-fabric-clusters.png" width="75" height="75"/> **diagrams.azure.compute.ServiceFabricClusters**
+- <img src="../../resources/azure/compute/vm-classic.png" width="75" height="75"/> **diagrams.azure.compute.VMClassic**
+- <img src="../../resources/azure/compute/vm-images.png" width="75" height="75"/> **diagrams.azure.compute.VMImages**
+- <img src="../../resources/azure/compute/vm-linux.png" width="75" height="75"/> **diagrams.azure.compute.VMLinux**
+- <img src="../../resources/azure/compute/vm-windows.png" width="75" height="75"/> **diagrams.azure.compute.VMWindows**
+- <img src="../../resources/azure/compute/vm.png" width="75" height="75"/> **diagrams.azure.compute.VM**
 
 ## azure.ml
 
-- ![](../../resources/azure/ml/batch-ai.png =75x75) **diagrams.azure.ml.BatchAI**
-- ![](../../resources/azure/ml/bot-services.png =75x75) **diagrams.azure.ml.BotServices**
-- ![](../../resources/azure/ml/cognitive-services.png =75x75) **diagrams.azure.ml.CognitiveServices**
-- ![](../../resources/azure/ml/genomics-accounts.png =75x75) **diagrams.azure.ml.GenomicsAccounts**
-- ![](../../resources/azure/ml/machine-learning-service-workspaces.png =75x75) **diagrams.azure.ml.MachineLearningServiceWorkspaces**
-- ![](../../resources/azure/ml/machine-learning-studio-web-service-plans.png =75x75) **diagrams.azure.ml.MachineLearningStudioWebServicePlans**
-- ![](../../resources/azure/ml/machine-learning-studio-web-services.png =75x75) **diagrams.azure.ml.MachineLearningStudioWebServices**
-- ![](../../resources/azure/ml/machine-learning-studio-workspaces.png =75x75) **diagrams.azure.ml.MachineLearningStudioWorkspaces**
+- <img src="../../resources/azure/ml/batch-ai.png" width="75" height="75"/> **diagrams.azure.ml.BatchAI**
+- <img src="../../resources/azure/ml/bot-services.png" width="75" height="75"/> **diagrams.azure.ml.BotServices**
+- <img src="../../resources/azure/ml/cognitive-services.png" width="75" height="75"/> **diagrams.azure.ml.CognitiveServices**
+- <img src="../../resources/azure/ml/genomics-accounts.png" width="75" height="75"/> **diagrams.azure.ml.GenomicsAccounts**
+- <img src="../../resources/azure/ml/machine-learning-service-workspaces.png" width="75" height="75"/> **diagrams.azure.ml.MachineLearningServiceWorkspaces**
+- <img src="../../resources/azure/ml/machine-learning-studio-web-service-plans.png" width="75" height="75"/> **diagrams.azure.ml.MachineLearningStudioWebServicePlans**
+- <img src="../../resources/azure/ml/machine-learning-studio-web-services.png" width="75" height="75"/> **diagrams.azure.ml.MachineLearningStudioWebServices**
+- <img src="../../resources/azure/ml/machine-learning-studio-workspaces.png" width="75" height="75"/> **diagrams.azure.ml.MachineLearningStudioWorkspaces**
 
 ## azure.mobile
 
-- ![](../../resources/azure/mobile/app-service---mobile.png =75x75) **diagrams.azure.mobile.AppServiceMobile**
-- ![](../../resources/azure/mobile/mobile-engagement.png =75x75) **diagrams.azure.mobile.MobileEngagement**
-- ![](../../resources/azure/mobile/notification-hubs.png =75x75) **diagrams.azure.mobile.NotificationHubs**
+- <img src="../../resources/azure/mobile/app-service---mobile.png" width="75" height="75"/> **diagrams.azure.mobile.AppServiceMobile**
+- <img src="../../resources/azure/mobile/mobile-engagement.png" width="75" height="75"/> **diagrams.azure.mobile.MobileEngagement**
+- <img src="../../resources/azure/mobile/notification-hubs.png" width="75" height="75"/> **diagrams.azure.mobile.NotificationHubs**
 
 ## azure.migration
 
-- ![](../../resources/azure/migration/database-migration-services.png =75x75) **diagrams.azure.migration.DatabaseMigrationServices**
-- ![](../../resources/azure/migration/migration-projects.png =75x75) **diagrams.azure.migration.MigrationProjects**
-- ![](../../resources/azure/migration/recovery-services-vaults.png =75x75) **diagrams.azure.migration.RecoveryServicesVaults**
+- <img src="../../resources/azure/migration/database-migration-services.png" width="75" height="75"/> **diagrams.azure.migration.DatabaseMigrationServices**
+- <img src="../../resources/azure/migration/migration-projects.png" width="75" height="75"/> **diagrams.azure.migration.MigrationProjects**
+- <img src="../../resources/azure/migration/recovery-services-vaults.png" width="75" height="75"/> **diagrams.azure.migration.RecoveryServicesVaults**
 
 ## azure.analytics
 
-- ![](../../resources/azure/analytics/analysis-services.png =75x75) **diagrams.azure.analytics.AnalysisServices**
-- ![](../../resources/azure/analytics/data-explorer-clusters.png =75x75) **diagrams.azure.analytics.DataExplorerClusters**
-- ![](../../resources/azure/analytics/data-factories.png =75x75) **diagrams.azure.analytics.DataFactories**
-- ![](../../resources/azure/analytics/data-lake-analytics.png =75x75) **diagrams.azure.analytics.DataLakeAnalytics**
-- ![](../../resources/azure/analytics/data-lake-store-gen1.png =75x75) **diagrams.azure.analytics.DataLakeStoreGen1**
-- ![](../../resources/azure/analytics/databricks.png =75x75) **diagrams.azure.analytics.Databricks**
-- ![](../../resources/azure/analytics/event-hub-clusters.png =75x75) **diagrams.azure.analytics.EventHubClusters**
-- ![](../../resources/azure/analytics/event-hubs.png =75x75) **diagrams.azure.analytics.EventHubs**
-- ![](../../resources/azure/analytics/hdinsightclusters.png =75x75) **diagrams.azure.analytics.Hdinsightclusters**
-- ![](../../resources/azure/analytics/log-analytics-workspaces.png =75x75) **diagrams.azure.analytics.LogAnalyticsWorkspaces**
-- ![](../../resources/azure/analytics/stream-analytics-jobs.png =75x75) **diagrams.azure.analytics.StreamAnalyticsJobs**
+- <img src="../../resources/azure/analytics/analysis-services.png" width="75" height="75"/> **diagrams.azure.analytics.AnalysisServices**
+- <img src="../../resources/azure/analytics/data-explorer-clusters.png" width="75" height="75"/> **diagrams.azure.analytics.DataExplorerClusters**
+- <img src="../../resources/azure/analytics/data-factories.png" width="75" height="75"/> **diagrams.azure.analytics.DataFactories**
+- <img src="../../resources/azure/analytics/data-lake-analytics.png" width="75" height="75"/> **diagrams.azure.analytics.DataLakeAnalytics**
+- <img src="../../resources/azure/analytics/data-lake-store-gen1.png" width="75" height="75"/> **diagrams.azure.analytics.DataLakeStoreGen1**
+- <img src="../../resources/azure/analytics/databricks.png" width="75" height="75"/> **diagrams.azure.analytics.Databricks**
+- <img src="../../resources/azure/analytics/event-hub-clusters.png" width="75" height="75"/> **diagrams.azure.analytics.EventHubClusters**
+- <img src="../../resources/azure/analytics/event-hubs.png" width="75" height="75"/> **diagrams.azure.analytics.EventHubs**
+- <img src="../../resources/azure/analytics/hdinsightclusters.png" width="75" height="75"/> **diagrams.azure.analytics.Hdinsightclusters**
+- <img src="../../resources/azure/analytics/log-analytics-workspaces.png" width="75" height="75"/> **diagrams.azure.analytics.LogAnalyticsWorkspaces**
+- <img src="../../resources/azure/analytics/stream-analytics-jobs.png" width="75" height="75"/> **diagrams.azure.analytics.StreamAnalyticsJobs**

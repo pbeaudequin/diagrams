@@ -7,249 +7,249 @@ Node classes list of aws provider.
 
 ## aws.database
 
-- ![](../../resources/aws/database/aurora.png =75x75) **diagrams.aws.database.Aurora**
-- ![](../../resources/aws/database/database-migration-service.png =75x75) **diagrams.aws.database.DatabaseMigrationService**, **DMS** (alias)
-- ![](../../resources/aws/database/database.png =75x75) **diagrams.aws.database.Database**, **DB** (alias)
-- ![](../../resources/aws/database/documentdb-mongodb-compatibility.png =75x75) **diagrams.aws.database.DocumentdbMongodbCompatibility**, **DocumentDB** (alias)
-- ![](../../resources/aws/database/dynamodb.png =75x75) **diagrams.aws.database.Dynamodb**, **DDB** (alias)
-- ![](../../resources/aws/database/elasticache.png =75x75) **diagrams.aws.database.Elasticache**, **ElastiCache** (alias)
-- ![](../../resources/aws/database/neptune.png =75x75) **diagrams.aws.database.Neptune**
-- ![](../../resources/aws/database/quantum-ledger-database-qldb.png =75x75) **diagrams.aws.database.QuantumLedgerDatabaseQldb**, **QLDB** (alias)
-- ![](../../resources/aws/database/rds-on-vmware.png =75x75) **diagrams.aws.database.RDSOnVmware**
-- ![](../../resources/aws/database/rds.png =75x75) **diagrams.aws.database.RDS**
-- ![](../../resources/aws/database/redshift.png =75x75) **diagrams.aws.database.Redshift**
-- ![](../../resources/aws/database/timestream.png =75x75) **diagrams.aws.database.Timestream**
+- <img src="../../resources/aws/database/aurora.png" width="75" height="75"/> **diagrams.aws.database.Aurora**
+- <img src="../../resources/aws/database/database-migration-service.png" width="75" height="75"/> **diagrams.aws.database.DatabaseMigrationService**, **DMS** (alias)
+- <img src="../../resources/aws/database/database.png" width="75" height="75"/> **diagrams.aws.database.Database**, **DB** (alias)
+- <img src="../../resources/aws/database/documentdb-mongodb-compatibility.png" width="75" height="75"/> **diagrams.aws.database.DocumentdbMongodbCompatibility**, **DocumentDB** (alias)
+- <img src="../../resources/aws/database/dynamodb.png" width="75" height="75"/> **diagrams.aws.database.Dynamodb**, **DDB** (alias)
+- <img src="../../resources/aws/database/elasticache.png" width="75" height="75"/> **diagrams.aws.database.Elasticache**, **ElastiCache** (alias)
+- <img src="../../resources/aws/database/neptune.png" width="75" height="75"/> **diagrams.aws.database.Neptune**
+- <img src="../../resources/aws/database/quantum-ledger-database-qldb.png" width="75" height="75"/> **diagrams.aws.database.QuantumLedgerDatabaseQldb**, **QLDB** (alias)
+- <img src="../../resources/aws/database/rds-on-vmware.png" width="75" height="75"/> **diagrams.aws.database.RDSOnVmware**
+- <img src="../../resources/aws/database/rds.png" width="75" height="75"/> **diagrams.aws.database.RDS**
+- <img src="../../resources/aws/database/redshift.png" width="75" height="75"/> **diagrams.aws.database.Redshift**
+- <img src="../../resources/aws/database/timestream.png" width="75" height="75"/> **diagrams.aws.database.Timestream**
 
 ## aws.security
 
-- ![](../../resources/aws/security/artifact.png =75x75) **diagrams.aws.security.Artifact**
-- ![](../../resources/aws/security/certificate-manager.png =75x75) **diagrams.aws.security.CertificateManager**, **ACM** (alias)
-- ![](../../resources/aws/security/cloud-directory.png =75x75) **diagrams.aws.security.CloudDirectory**
-- ![](../../resources/aws/security/cloudhsm.png =75x75) **diagrams.aws.security.Cloudhsm**, **CloudHSM** (alias)
-- ![](../../resources/aws/security/cognito.png =75x75) **diagrams.aws.security.Cognito**
-- ![](../../resources/aws/security/directory-service.png =75x75) **diagrams.aws.security.DirectoryService**, **DS** (alias)
-- ![](../../resources/aws/security/firewall-manager.png =75x75) **diagrams.aws.security.FirewallManager**, **FMS** (alias)
-- ![](../../resources/aws/security/guardduty.png =75x75) **diagrams.aws.security.Guardduty**
-- ![](../../resources/aws/security/identity-and-access-management-iam.png =75x75) **diagrams.aws.security.IdentityAndAccessManagementIam**, **IAM** (alias)
-- ![](../../resources/aws/security/inspector.png =75x75) **diagrams.aws.security.Inspector**
-- ![](../../resources/aws/security/key-management-service.png =75x75) **diagrams.aws.security.KeyManagementService**, **KMS** (alias)
-- ![](../../resources/aws/security/macie.png =75x75) **diagrams.aws.security.Macie**
-- ![](../../resources/aws/security/resource-access-manager.png =75x75) **diagrams.aws.security.ResourceAccessManager**, **RAM** (alias)
-- ![](../../resources/aws/security/secrets-manager.png =75x75) **diagrams.aws.security.SecretsManager**
-- ![](../../resources/aws/security/security-hub.png =75x75) **diagrams.aws.security.SecurityHub**
-- ![](../../resources/aws/security/security-identity-and-compliance.png =75x75) **diagrams.aws.security.SecurityIdentityAndCompliance**
-- ![](../../resources/aws/security/shield.png =75x75) **diagrams.aws.security.Shield**
-- ![](../../resources/aws/security/single-sign-on.png =75x75) **diagrams.aws.security.SingleSignOn**
-- ![](../../resources/aws/security/waf.png =75x75) **diagrams.aws.security.WAF**
+- <img src="../../resources/aws/security/artifact.png" width="75" height="75"/> **diagrams.aws.security.Artifact**
+- <img src="../../resources/aws/security/certificate-manager.png" width="75" height="75"/> **diagrams.aws.security.CertificateManager**, **ACM** (alias)
+- <img src="../../resources/aws/security/cloud-directory.png" width="75" height="75"/> **diagrams.aws.security.CloudDirectory**
+- <img src="../../resources/aws/security/cloudhsm.png" width="75" height="75"/> **diagrams.aws.security.Cloudhsm**, **CloudHSM** (alias)
+- <img src="../../resources/aws/security/cognito.png" width="75" height="75"/> **diagrams.aws.security.Cognito**
+- <img src="../../resources/aws/security/directory-service.png" width="75" height="75"/> **diagrams.aws.security.DirectoryService**, **DS** (alias)
+- <img src="../../resources/aws/security/firewall-manager.png" width="75" height="75"/> **diagrams.aws.security.FirewallManager**, **FMS** (alias)
+- <img src="../../resources/aws/security/guardduty.png" width="75" height="75"/> **diagrams.aws.security.Guardduty**
+- <img src="../../resources/aws/security/identity-and-access-management-iam.png" width="75" height="75"/> **diagrams.aws.security.IdentityAndAccessManagementIam**, **IAM** (alias)
+- <img src="../../resources/aws/security/inspector.png" width="75" height="75"/> **diagrams.aws.security.Inspector**
+- <img src="../../resources/aws/security/key-management-service.png" width="75" height="75"/> **diagrams.aws.security.KeyManagementService**, **KMS** (alias)
+- <img src="../../resources/aws/security/macie.png" width="75" height="75"/> **diagrams.aws.security.Macie**
+- <img src="../../resources/aws/security/resource-access-manager.png" width="75" height="75"/> **diagrams.aws.security.ResourceAccessManager**, **RAM** (alias)
+- <img src="../../resources/aws/security/secrets-manager.png" width="75" height="75"/> **diagrams.aws.security.SecretsManager**
+- <img src="../../resources/aws/security/security-hub.png" width="75" height="75"/> **diagrams.aws.security.SecurityHub**
+- <img src="../../resources/aws/security/security-identity-and-compliance.png" width="75" height="75"/> **diagrams.aws.security.SecurityIdentityAndCompliance**
+- <img src="../../resources/aws/security/shield.png" width="75" height="75"/> **diagrams.aws.security.Shield**
+- <img src="../../resources/aws/security/single-sign-on.png" width="75" height="75"/> **diagrams.aws.security.SingleSignOn**
+- <img src="../../resources/aws/security/waf.png" width="75" height="75"/> **diagrams.aws.security.WAF**
 
 ## aws.integration
 
-- ![](../../resources/aws/integration/application-integration.png =75x75) **diagrams.aws.integration.ApplicationIntegration**
-- ![](../../resources/aws/integration/appsync.png =75x75) **diagrams.aws.integration.Appsync**
-- ![](../../resources/aws/integration/console-mobile-application.png =75x75) **diagrams.aws.integration.ConsoleMobileApplication**
-- ![](../../resources/aws/integration/eventbridge.png =75x75) **diagrams.aws.integration.Eventbridge**
-- ![](../../resources/aws/integration/mq.png =75x75) **diagrams.aws.integration.MQ**
-- ![](../../resources/aws/integration/simple-notification-service-sns.png =75x75) **diagrams.aws.integration.SimpleNotificationServiceSns**, **SNS** (alias)
-- ![](../../resources/aws/integration/simple-queue-service-sqs.png =75x75) **diagrams.aws.integration.SimpleQueueServiceSqs**, **SQS** (alias)
-- ![](../../resources/aws/integration/step-functions.png =75x75) **diagrams.aws.integration.StepFunctions**, **SF** (alias)
+- <img src="../../resources/aws/integration/application-integration.png" width="75" height="75"/> **diagrams.aws.integration.ApplicationIntegration**
+- <img src="../../resources/aws/integration/appsync.png" width="75" height="75"/> **diagrams.aws.integration.Appsync**
+- <img src="../../resources/aws/integration/console-mobile-application.png" width="75" height="75"/> **diagrams.aws.integration.ConsoleMobileApplication**
+- <img src="../../resources/aws/integration/eventbridge.png" width="75" height="75"/> **diagrams.aws.integration.Eventbridge**
+- <img src="../../resources/aws/integration/mq.png" width="75" height="75"/> **diagrams.aws.integration.MQ**
+- <img src="../../resources/aws/integration/simple-notification-service-sns.png" width="75" height="75"/> **diagrams.aws.integration.SimpleNotificationServiceSns**, **SNS** (alias)
+- <img src="../../resources/aws/integration/simple-queue-service-sqs.png" width="75" height="75"/> **diagrams.aws.integration.SimpleQueueServiceSqs**, **SQS** (alias)
+- <img src="../../resources/aws/integration/step-functions.png" width="75" height="75"/> **diagrams.aws.integration.StepFunctions**, **SF** (alias)
 
 ## aws.network
 
-- ![](../../resources/aws/network/api-gateway.png =75x75) **diagrams.aws.network.APIGateway**
-- ![](../../resources/aws/network/app-mesh.png =75x75) **diagrams.aws.network.AppMesh**
-- ![](../../resources/aws/network/client-vpn.png =75x75) **diagrams.aws.network.ClientVpn**
-- ![](../../resources/aws/network/cloud-map.png =75x75) **diagrams.aws.network.CloudMap**
-- ![](../../resources/aws/network/cloudfront.png =75x75) **diagrams.aws.network.CloudFront**, **CF** (alias)
-- ![](../../resources/aws/network/direct-connect.png =75x75) **diagrams.aws.network.DirectConnect**
-- ![](../../resources/aws/network/elastic-load-balancing.png =75x75) **diagrams.aws.network.ElasticLoadBalancing**, **ELB** (alias)
-- ![](../../resources/aws/network/endpoint.png =75x75) **diagrams.aws.network.Endpoint**
-- ![](../../resources/aws/network/global-accelerator.png =75x75) **diagrams.aws.network.GlobalAccelerator**, **GAX** (alias)
-- ![](../../resources/aws/network/internet-gateway.png =75x75) **diagrams.aws.network.InternetGateway**
-- ![](../../resources/aws/network/nacl.png =75x75) **diagrams.aws.network.Nacl**
-- ![](../../resources/aws/network/nat-gateway.png =75x75) **diagrams.aws.network.NATGateway**
-- ![](../../resources/aws/network/networking-and-content-delivery.png =75x75) **diagrams.aws.network.NetworkingAndContentDelivery**
-- ![](../../resources/aws/network/private-subnet.png =75x75) **diagrams.aws.network.PrivateSubnet**
-- ![](../../resources/aws/network/privatelink.png =75x75) **diagrams.aws.network.Privatelink**
-- ![](../../resources/aws/network/public-subnet.png =75x75) **diagrams.aws.network.PublicSubnet**
-- ![](../../resources/aws/network/route-53.png =75x75) **diagrams.aws.network.Route53**
-- ![](../../resources/aws/network/route-table.png =75x75) **diagrams.aws.network.RouteTable**
-- ![](../../resources/aws/network/site-to-site-vpn.png =75x75) **diagrams.aws.network.SiteToSiteVpn**
-- ![](../../resources/aws/network/transit-gateway.png =75x75) **diagrams.aws.network.TransitGateway**
-- ![](../../resources/aws/network/vpc-peering.png =75x75) **diagrams.aws.network.VPCPeering**
-- ![](../../resources/aws/network/vpc-router.png =75x75) **diagrams.aws.network.VPCRouter**
-- ![](../../resources/aws/network/vpc.png =75x75) **diagrams.aws.network.VPC**
+- <img src="../../resources/aws/network/api-gateway.png" width="75" height="75"/> **diagrams.aws.network.APIGateway**
+- <img src="../../resources/aws/network/app-mesh.png" width="75" height="75"/> **diagrams.aws.network.AppMesh**
+- <img src="../../resources/aws/network/client-vpn.png" width="75" height="75"/> **diagrams.aws.network.ClientVpn**
+- <img src="../../resources/aws/network/cloud-map.png" width="75" height="75"/> **diagrams.aws.network.CloudMap**
+- <img src="../../resources/aws/network/cloudfront.png" width="75" height="75"/> **diagrams.aws.network.CloudFront**, **CF** (alias)
+- <img src="../../resources/aws/network/direct-connect.png" width="75" height="75"/> **diagrams.aws.network.DirectConnect**
+- <img src="../../resources/aws/network/elastic-load-balancing.png" width="75" height="75"/> **diagrams.aws.network.ElasticLoadBalancing**, **ELB** (alias)
+- <img src="../../resources/aws/network/endpoint.png" width="75" height="75"/> **diagrams.aws.network.Endpoint**
+- <img src="../../resources/aws/network/global-accelerator.png" width="75" height="75"/> **diagrams.aws.network.GlobalAccelerator**, **GAX** (alias)
+- <img src="../../resources/aws/network/internet-gateway.png" width="75" height="75"/> **diagrams.aws.network.InternetGateway**
+- <img src="../../resources/aws/network/nacl.png" width="75" height="75"/> **diagrams.aws.network.Nacl**
+- <img src="../../resources/aws/network/nat-gateway.png" width="75" height="75"/> **diagrams.aws.network.NATGateway**
+- <img src="../../resources/aws/network/networking-and-content-delivery.png" width="75" height="75"/> **diagrams.aws.network.NetworkingAndContentDelivery**
+- <img src="../../resources/aws/network/private-subnet.png" width="75" height="75"/> **diagrams.aws.network.PrivateSubnet**
+- <img src="../../resources/aws/network/privatelink.png" width="75" height="75"/> **diagrams.aws.network.Privatelink**
+- <img src="../../resources/aws/network/public-subnet.png" width="75" height="75"/> **diagrams.aws.network.PublicSubnet**
+- <img src="../../resources/aws/network/route-53.png" width="75" height="75"/> **diagrams.aws.network.Route53**
+- <img src="../../resources/aws/network/route-table.png" width="75" height="75"/> **diagrams.aws.network.RouteTable**
+- <img src="../../resources/aws/network/site-to-site-vpn.png" width="75" height="75"/> **diagrams.aws.network.SiteToSiteVpn**
+- <img src="../../resources/aws/network/transit-gateway.png" width="75" height="75"/> **diagrams.aws.network.TransitGateway**
+- <img src="../../resources/aws/network/vpc-peering.png" width="75" height="75"/> **diagrams.aws.network.VPCPeering**
+- <img src="../../resources/aws/network/vpc-router.png" width="75" height="75"/> **diagrams.aws.network.VPCRouter**
+- <img src="../../resources/aws/network/vpc.png" width="75" height="75"/> **diagrams.aws.network.VPC**
 
 ## aws.management
 
-- ![](../../resources/aws/management/auto-scaling.png =75x75) **diagrams.aws.management.AutoScaling**
-- ![](../../resources/aws/management/cloudformation.png =75x75) **diagrams.aws.management.Cloudformation**
-- ![](../../resources/aws/management/cloudtrail.png =75x75) **diagrams.aws.management.Cloudtrail**
-- ![](../../resources/aws/management/cloudwatch.png =75x75) **diagrams.aws.management.Cloudwatch**
-- ![](../../resources/aws/management/codeguru.png =75x75) **diagrams.aws.management.Codeguru**
-- ![](../../resources/aws/management/command-line-interface.png =75x75) **diagrams.aws.management.CommandLineInterface**
-- ![](../../resources/aws/management/config.png =75x75) **diagrams.aws.management.Config**
-- ![](../../resources/aws/management/control-tower.png =75x75) **diagrams.aws.management.ControlTower**
-- ![](../../resources/aws/management/license-manager.png =75x75) **diagrams.aws.management.LicenseManager**
-- ![](../../resources/aws/management/managed-services.png =75x75) **diagrams.aws.management.ManagedServices**
-- ![](../../resources/aws/management/management-console.png =75x75) **diagrams.aws.management.ManagementConsole**
-- ![](../../resources/aws/management/opsworks.png =75x75) **diagrams.aws.management.Opsworks**
-- ![](../../resources/aws/management/organizations.png =75x75) **diagrams.aws.management.Organizations**
-- ![](../../resources/aws/management/service-catalog.png =75x75) **diagrams.aws.management.ServiceCatalog**
-- ![](../../resources/aws/management/systems-manager-parameter-store.png =75x75) **diagrams.aws.management.SystemsManagerParameterStore**, **ParameterStore** (alias)
-- ![](../../resources/aws/management/systems-manager.png =75x75) **diagrams.aws.management.SystemsManager**, **SSM** (alias)
-- ![](../../resources/aws/management/trusted-advisor.png =75x75) **diagrams.aws.management.TrustedAdvisor**
-- ![](../../resources/aws/management/well-architected-tool.png =75x75) **diagrams.aws.management.WellArchitectedTool**
+- <img src="../../resources/aws/management/auto-scaling.png" width="75" height="75"/> **diagrams.aws.management.AutoScaling**
+- <img src="../../resources/aws/management/cloudformation.png" width="75" height="75"/> **diagrams.aws.management.Cloudformation**
+- <img src="../../resources/aws/management/cloudtrail.png" width="75" height="75"/> **diagrams.aws.management.Cloudtrail**
+- <img src="../../resources/aws/management/cloudwatch.png" width="75" height="75"/> **diagrams.aws.management.Cloudwatch**
+- <img src="../../resources/aws/management/codeguru.png" width="75" height="75"/> **diagrams.aws.management.Codeguru**
+- <img src="../../resources/aws/management/command-line-interface.png" width="75" height="75"/> **diagrams.aws.management.CommandLineInterface**
+- <img src="../../resources/aws/management/config.png" width="75" height="75"/> **diagrams.aws.management.Config**
+- <img src="../../resources/aws/management/control-tower.png" width="75" height="75"/> **diagrams.aws.management.ControlTower**
+- <img src="../../resources/aws/management/license-manager.png" width="75" height="75"/> **diagrams.aws.management.LicenseManager**
+- <img src="../../resources/aws/management/managed-services.png" width="75" height="75"/> **diagrams.aws.management.ManagedServices**
+- <img src="../../resources/aws/management/management-console.png" width="75" height="75"/> **diagrams.aws.management.ManagementConsole**
+- <img src="../../resources/aws/management/opsworks.png" width="75" height="75"/> **diagrams.aws.management.Opsworks**
+- <img src="../../resources/aws/management/organizations.png" width="75" height="75"/> **diagrams.aws.management.Organizations**
+- <img src="../../resources/aws/management/service-catalog.png" width="75" height="75"/> **diagrams.aws.management.ServiceCatalog**
+- <img src="../../resources/aws/management/systems-manager-parameter-store.png" width="75" height="75"/> **diagrams.aws.management.SystemsManagerParameterStore**, **ParameterStore** (alias)
+- <img src="../../resources/aws/management/systems-manager.png" width="75" height="75"/> **diagrams.aws.management.SystemsManager**, **SSM** (alias)
+- <img src="../../resources/aws/management/trusted-advisor.png" width="75" height="75"/> **diagrams.aws.management.TrustedAdvisor**
+- <img src="../../resources/aws/management/well-architected-tool.png" width="75" height="75"/> **diagrams.aws.management.WellArchitectedTool**
 
 ## aws.storage
 
-- ![](../../resources/aws/storage/backup.png =75x75) **diagrams.aws.storage.Backup**
-- ![](../../resources/aws/storage/cloudendure-disaster-recovery.png =75x75) **diagrams.aws.storage.CloudendureDisasterRecovery**, **CDR** (alias)
-- ![](../../resources/aws/storage/efs-infrequentaccess-primary-bg.png =75x75) **diagrams.aws.storage.EFSInfrequentaccessPrimaryBg**
-- ![](../../resources/aws/storage/efs-standard-primary-bg.png =75x75) **diagrams.aws.storage.EFSStandardPrimaryBg**
-- ![](../../resources/aws/storage/elastic-block-store-ebs.png =75x75) **diagrams.aws.storage.ElasticBlockStoreEBS**, **EBS** (alias)
-- ![](../../resources/aws/storage/elastic-file-system-efs.png =75x75) **diagrams.aws.storage.ElasticFileSystemEFS**, **EFS** (alias)
-- ![](../../resources/aws/storage/fsx-for-lustre.png =75x75) **diagrams.aws.storage.FsxForLustre**
-- ![](../../resources/aws/storage/fsx-for-windows-file-server.png =75x75) **diagrams.aws.storage.FsxForWindowsFileServer**
-- ![](../../resources/aws/storage/fsx.png =75x75) **diagrams.aws.storage.Fsx**, **FSx** (alias)
-- ![](../../resources/aws/storage/s3-glacier.png =75x75) **diagrams.aws.storage.S3Glacier**
-- ![](../../resources/aws/storage/simple-storage-service-s3.png =75x75) **diagrams.aws.storage.SimpleStorageServiceS3**, **S3** (alias)
-- ![](../../resources/aws/storage/snowball-edge.png =75x75) **diagrams.aws.storage.SnowballEdge**
-- ![](../../resources/aws/storage/snowball.png =75x75) **diagrams.aws.storage.Snowball**
-- ![](../../resources/aws/storage/snowmobile.png =75x75) **diagrams.aws.storage.Snowmobile**
-- ![](../../resources/aws/storage/storage-gateway.png =75x75) **diagrams.aws.storage.StorageGateway**
-- ![](../../resources/aws/storage/storage.png =75x75) **diagrams.aws.storage.Storage**
+- <img src="../../resources/aws/storage/backup.png" width="75" height="75"/> **diagrams.aws.storage.Backup**
+- <img src="../../resources/aws/storage/cloudendure-disaster-recovery.png" width="75" height="75"/> **diagrams.aws.storage.CloudendureDisasterRecovery**, **CDR** (alias)
+- <img src="../../resources/aws/storage/efs-infrequentaccess-primary-bg.png" width="75" height="75"/> **diagrams.aws.storage.EFSInfrequentaccessPrimaryBg**
+- <img src="../../resources/aws/storage/efs-standard-primary-bg.png" width="75" height="75"/> **diagrams.aws.storage.EFSStandardPrimaryBg**
+- <img src="../../resources/aws/storage/elastic-block-store-ebs.png" width="75" height="75"/> **diagrams.aws.storage.ElasticBlockStoreEBS**, **EBS** (alias)
+- <img src="../../resources/aws/storage/elastic-file-system-efs.png" width="75" height="75"/> **diagrams.aws.storage.ElasticFileSystemEFS**, **EFS** (alias)
+- <img src="../../resources/aws/storage/fsx-for-lustre.png" width="75" height="75"/> **diagrams.aws.storage.FsxForLustre**
+- <img src="../../resources/aws/storage/fsx-for-windows-file-server.png" width="75" height="75"/> **diagrams.aws.storage.FsxForWindowsFileServer**
+- <img src="../../resources/aws/storage/fsx.png" width="75" height="75"/> **diagrams.aws.storage.Fsx**, **FSx** (alias)
+- <img src="../../resources/aws/storage/s3-glacier.png" width="75" height="75"/> **diagrams.aws.storage.S3Glacier**
+- <img src="../../resources/aws/storage/simple-storage-service-s3.png" width="75" height="75"/> **diagrams.aws.storage.SimpleStorageServiceS3**, **S3** (alias)
+- <img src="../../resources/aws/storage/snowball-edge.png" width="75" height="75"/> **diagrams.aws.storage.SnowballEdge**
+- <img src="../../resources/aws/storage/snowball.png" width="75" height="75"/> **diagrams.aws.storage.Snowball**
+- <img src="../../resources/aws/storage/snowmobile.png" width="75" height="75"/> **diagrams.aws.storage.Snowmobile**
+- <img src="../../resources/aws/storage/storage-gateway.png" width="75" height="75"/> **diagrams.aws.storage.StorageGateway**
+- <img src="../../resources/aws/storage/storage.png" width="75" height="75"/> **diagrams.aws.storage.Storage**
 
 ## aws.iot
 
-- ![](../../resources/aws/iot/freertos.png =75x75) **diagrams.aws.iot.Freertos**, **FreeRTOS** (alias)
-- ![](../../resources/aws/iot/internet-of-things.png =75x75) **diagrams.aws.iot.InternetOfThings**
-- ![](../../resources/aws/iot/iot-1-click.png =75x75) **diagrams.aws.iot.Iot1Click**
-- ![](../../resources/aws/iot/iot-analytics.png =75x75) **diagrams.aws.iot.IotAnalytics**
-- ![](../../resources/aws/iot/iot-button.png =75x75) **diagrams.aws.iot.IotButton**
-- ![](../../resources/aws/iot/iot-core.png =75x75) **diagrams.aws.iot.IotCore**
-- ![](../../resources/aws/iot/iot-device-defender.png =75x75) **diagrams.aws.iot.IotDeviceDefender**
-- ![](../../resources/aws/iot/iot-device-management.png =75x75) **diagrams.aws.iot.IotDeviceManagement**
-- ![](../../resources/aws/iot/iot-events.png =75x75) **diagrams.aws.iot.IotEvents**
-- ![](../../resources/aws/iot/iot-greengrass.png =75x75) **diagrams.aws.iot.IotGreengrass**
-- ![](../../resources/aws/iot/iot-sitewise.png =75x75) **diagrams.aws.iot.IotSitewise**
-- ![](../../resources/aws/iot/iot-things-graph.png =75x75) **diagrams.aws.iot.IotThingsGraph**
+- <img src="../../resources/aws/iot/freertos.png" width="75" height="75"/> **diagrams.aws.iot.Freertos**, **FreeRTOS** (alias)
+- <img src="../../resources/aws/iot/internet-of-things.png" width="75" height="75"/> **diagrams.aws.iot.InternetOfThings**
+- <img src="../../resources/aws/iot/iot-1-click.png" width="75" height="75"/> **diagrams.aws.iot.Iot1Click**
+- <img src="../../resources/aws/iot/iot-analytics.png" width="75" height="75"/> **diagrams.aws.iot.IotAnalytics**
+- <img src="../../resources/aws/iot/iot-button.png" width="75" height="75"/> **diagrams.aws.iot.IotButton**
+- <img src="../../resources/aws/iot/iot-core.png" width="75" height="75"/> **diagrams.aws.iot.IotCore**
+- <img src="../../resources/aws/iot/iot-device-defender.png" width="75" height="75"/> **diagrams.aws.iot.IotDeviceDefender**
+- <img src="../../resources/aws/iot/iot-device-management.png" width="75" height="75"/> **diagrams.aws.iot.IotDeviceManagement**
+- <img src="../../resources/aws/iot/iot-events.png" width="75" height="75"/> **diagrams.aws.iot.IotEvents**
+- <img src="../../resources/aws/iot/iot-greengrass.png" width="75" height="75"/> **diagrams.aws.iot.IotGreengrass**
+- <img src="../../resources/aws/iot/iot-sitewise.png" width="75" height="75"/> **diagrams.aws.iot.IotSitewise**
+- <img src="../../resources/aws/iot/iot-things-graph.png" width="75" height="75"/> **diagrams.aws.iot.IotThingsGraph**
 
 ## aws.engagement
 
-- ![](../../resources/aws/engagement/connect.png =75x75) **diagrams.aws.engagement.Connect**
-- ![](../../resources/aws/engagement/pinpoint.png =75x75) **diagrams.aws.engagement.Pinpoint**
-- ![](../../resources/aws/engagement/simple-email-service-ses.png =75x75) **diagrams.aws.engagement.SimpleEmailServiceSes**, **SES** (alias)
+- <img src="../../resources/aws/engagement/connect.png" width="75" height="75"/> **diagrams.aws.engagement.Connect**
+- <img src="../../resources/aws/engagement/pinpoint.png" width="75" height="75"/> **diagrams.aws.engagement.Pinpoint**
+- <img src="../../resources/aws/engagement/simple-email-service-ses.png" width="75" height="75"/> **diagrams.aws.engagement.SimpleEmailServiceSes**, **SES** (alias)
 
 ## aws.compute
 
-- ![](../../resources/aws/compute/application-auto-scaling.png =75x75) **diagrams.aws.compute.ApplicationAutoScaling**, **AutoScaling** (alias)
-- ![](../../resources/aws/compute/batch.png =75x75) **diagrams.aws.compute.Batch**
-- ![](../../resources/aws/compute/compute.png =75x75) **diagrams.aws.compute.Compute**
-- ![](../../resources/aws/compute/ec2-container-registry.png =75x75) **diagrams.aws.compute.EC2ContainerRegistry**, **ECR** (alias)
-- ![](../../resources/aws/compute/ec2.png =75x75) **diagrams.aws.compute.EC2**
-- ![](../../resources/aws/compute/elastic-beanstalk.png =75x75) **diagrams.aws.compute.ElasticBeanstalk**, **EB** (alias)
-- ![](../../resources/aws/compute/elastic-container-service.png =75x75) **diagrams.aws.compute.ElasticContainerService**, **ECS** (alias)
-- ![](../../resources/aws/compute/elastic-kubernetes-service.png =75x75) **diagrams.aws.compute.ElasticKubernetesService**, **EKS** (alias)
-- ![](../../resources/aws/compute/fargate.png =75x75) **diagrams.aws.compute.Fargate**
-- ![](../../resources/aws/compute/lambda.png =75x75) **diagrams.aws.compute.Lambda**
-- ![](../../resources/aws/compute/lightsail.png =75x75) **diagrams.aws.compute.Lightsail**
-- ![](../../resources/aws/compute/outposts.png =75x75) **diagrams.aws.compute.Outposts**
-- ![](../../resources/aws/compute/serverless-application-repository.png =75x75) **diagrams.aws.compute.ServerlessApplicationRepository**, **SAR** (alias)
-- ![](../../resources/aws/compute/thinkbox-deadline.png =75x75) **diagrams.aws.compute.ThinkboxDeadline**
-- ![](../../resources/aws/compute/thinkbox-draft.png =75x75) **diagrams.aws.compute.ThinkboxDraft**
-- ![](../../resources/aws/compute/thinkbox-frost.png =75x75) **diagrams.aws.compute.ThinkboxFrost**
-- ![](../../resources/aws/compute/thinkbox-krakatoa.png =75x75) **diagrams.aws.compute.ThinkboxKrakatoa**
-- ![](../../resources/aws/compute/thinkbox-sequoia.png =75x75) **diagrams.aws.compute.ThinkboxSequoia**
-- ![](../../resources/aws/compute/thinkbox-stoke.png =75x75) **diagrams.aws.compute.ThinkboxStoke**
-- ![](../../resources/aws/compute/thinkbox-xmesh.png =75x75) **diagrams.aws.compute.ThinkboxXmesh**
-- ![](../../resources/aws/compute/vmware-cloud-on-aws.png =75x75) **diagrams.aws.compute.VmwareCloudOnAWS**
+- <img src="../../resources/aws/compute/application-auto-scaling.png" width="75" height="75"/> **diagrams.aws.compute.ApplicationAutoScaling**, **AutoScaling** (alias)
+- <img src="../../resources/aws/compute/batch.png" width="75" height="75"/> **diagrams.aws.compute.Batch**
+- <img src="../../resources/aws/compute/compute.png" width="75" height="75"/> **diagrams.aws.compute.Compute**
+- <img src="../../resources/aws/compute/ec2-container-registry.png" width="75" height="75"/> **diagrams.aws.compute.EC2ContainerRegistry**, **ECR** (alias)
+- <img src="../../resources/aws/compute/ec2.png" width="75" height="75"/> **diagrams.aws.compute.EC2**
+- <img src="../../resources/aws/compute/elastic-beanstalk.png" width="75" height="75"/> **diagrams.aws.compute.ElasticBeanstalk**, **EB** (alias)
+- <img src="../../resources/aws/compute/elastic-container-service.png" width="75" height="75"/> **diagrams.aws.compute.ElasticContainerService**, **ECS** (alias)
+- <img src="../../resources/aws/compute/elastic-kubernetes-service.png" width="75" height="75"/> **diagrams.aws.compute.ElasticKubernetesService**, **EKS** (alias)
+- <img src="../../resources/aws/compute/fargate.png" width="75" height="75"/> **diagrams.aws.compute.Fargate**
+- <img src="../../resources/aws/compute/lambda.png" width="75" height="75"/> **diagrams.aws.compute.Lambda**
+- <img src="../../resources/aws/compute/lightsail.png" width="75" height="75"/> **diagrams.aws.compute.Lightsail**
+- <img src="../../resources/aws/compute/outposts.png" width="75" height="75"/> **diagrams.aws.compute.Outposts**
+- <img src="../../resources/aws/compute/serverless-application-repository.png" width="75" height="75"/> **diagrams.aws.compute.ServerlessApplicationRepository**, **SAR** (alias)
+- <img src="../../resources/aws/compute/thinkbox-deadline.png" width="75" height="75"/> **diagrams.aws.compute.ThinkboxDeadline**
+- <img src="../../resources/aws/compute/thinkbox-draft.png" width="75" height="75"/> **diagrams.aws.compute.ThinkboxDraft**
+- <img src="../../resources/aws/compute/thinkbox-frost.png" width="75" height="75"/> **diagrams.aws.compute.ThinkboxFrost**
+- <img src="../../resources/aws/compute/thinkbox-krakatoa.png" width="75" height="75"/> **diagrams.aws.compute.ThinkboxKrakatoa**
+- <img src="../../resources/aws/compute/thinkbox-sequoia.png" width="75" height="75"/> **diagrams.aws.compute.ThinkboxSequoia**
+- <img src="../../resources/aws/compute/thinkbox-stoke.png" width="75" height="75"/> **diagrams.aws.compute.ThinkboxStoke**
+- <img src="../../resources/aws/compute/thinkbox-xmesh.png" width="75" height="75"/> **diagrams.aws.compute.ThinkboxXmesh**
+- <img src="../../resources/aws/compute/vmware-cloud-on-aws.png" width="75" height="75"/> **diagrams.aws.compute.VmwareCloudOnAWS**
 
 ## aws.devtools
 
-- ![](../../resources/aws/devtools/cloud-development-kit.png =75x75) **diagrams.aws.devtools.CloudDevelopmentKit**
-- ![](../../resources/aws/devtools/cloud9.png =75x75) **diagrams.aws.devtools.Cloud9**
-- ![](../../resources/aws/devtools/codebuild.png =75x75) **diagrams.aws.devtools.Codebuild**
-- ![](../../resources/aws/devtools/codecommit.png =75x75) **diagrams.aws.devtools.Codecommit**
-- ![](../../resources/aws/devtools/codedeploy.png =75x75) **diagrams.aws.devtools.Codedeploy**
-- ![](../../resources/aws/devtools/codepipeline.png =75x75) **diagrams.aws.devtools.Codepipeline**
-- ![](../../resources/aws/devtools/codestar.png =75x75) **diagrams.aws.devtools.Codestar**
-- ![](../../resources/aws/devtools/command-line-interface.png =75x75) **diagrams.aws.devtools.CommandLineInterface**, **CLI** (alias)
-- ![](../../resources/aws/devtools/developer-tools.png =75x75) **diagrams.aws.devtools.DeveloperTools**, **DevTools** (alias)
-- ![](../../resources/aws/devtools/tools-and-sdks.png =75x75) **diagrams.aws.devtools.ToolsAndSdks**
-- ![](../../resources/aws/devtools/x-ray.png =75x75) **diagrams.aws.devtools.XRay**
+- <img src="../../resources/aws/devtools/cloud-development-kit.png" width="75" height="75"/> **diagrams.aws.devtools.CloudDevelopmentKit**
+- <img src="../../resources/aws/devtools/cloud9.png" width="75" height="75"/> **diagrams.aws.devtools.Cloud9**
+- <img src="../../resources/aws/devtools/codebuild.png" width="75" height="75"/> **diagrams.aws.devtools.Codebuild**
+- <img src="../../resources/aws/devtools/codecommit.png" width="75" height="75"/> **diagrams.aws.devtools.Codecommit**
+- <img src="../../resources/aws/devtools/codedeploy.png" width="75" height="75"/> **diagrams.aws.devtools.Codedeploy**
+- <img src="../../resources/aws/devtools/codepipeline.png" width="75" height="75"/> **diagrams.aws.devtools.Codepipeline**
+- <img src="../../resources/aws/devtools/codestar.png" width="75" height="75"/> **diagrams.aws.devtools.Codestar**
+- <img src="../../resources/aws/devtools/command-line-interface.png" width="75" height="75"/> **diagrams.aws.devtools.CommandLineInterface**, **CLI** (alias)
+- <img src="../../resources/aws/devtools/developer-tools.png" width="75" height="75"/> **diagrams.aws.devtools.DeveloperTools**, **DevTools** (alias)
+- <img src="../../resources/aws/devtools/tools-and-sdks.png" width="75" height="75"/> **diagrams.aws.devtools.ToolsAndSdks**
+- <img src="../../resources/aws/devtools/x-ray.png" width="75" height="75"/> **diagrams.aws.devtools.XRay**
 
 ## aws.ml
 
-- ![](../../resources/aws/ml/apache-mxnet-on-aws.png =75x75) **diagrams.aws.ml.ApacheMxnetOnAWS**
-- ![](../../resources/aws/ml/comprehend.png =75x75) **diagrams.aws.ml.Comprehend**
-- ![](../../resources/aws/ml/deep-learning-amis.png =75x75) **diagrams.aws.ml.DeepLearningAmis**
-- ![](../../resources/aws/ml/deep-learning-containers.png =75x75) **diagrams.aws.ml.DeepLearningContainers**, **DLC** (alias)
-- ![](../../resources/aws/ml/deeplens.png =75x75) **diagrams.aws.ml.Deeplens**
-- ![](../../resources/aws/ml/deepracer.png =75x75) **diagrams.aws.ml.Deepracer**
-- ![](../../resources/aws/ml/elastic-inference.png =75x75) **diagrams.aws.ml.ElasticInference**
-- ![](../../resources/aws/ml/forecast.png =75x75) **diagrams.aws.ml.Forecast**
-- ![](../../resources/aws/ml/lex.png =75x75) **diagrams.aws.ml.Lex**
-- ![](../../resources/aws/ml/machine-learning.png =75x75) **diagrams.aws.ml.MachineLearning**
-- ![](../../resources/aws/ml/personalize.png =75x75) **diagrams.aws.ml.Personalize**
-- ![](../../resources/aws/ml/polly.png =75x75) **diagrams.aws.ml.Polly**
-- ![](../../resources/aws/ml/rekognition.png =75x75) **diagrams.aws.ml.Rekognition**
-- ![](../../resources/aws/ml/sagemaker-ground-truth.png =75x75) **diagrams.aws.ml.SagemakerGroundTruth**
-- ![](../../resources/aws/ml/sagemaker.png =75x75) **diagrams.aws.ml.Sagemaker**
-- ![](../../resources/aws/ml/tensorflow-on-aws.png =75x75) **diagrams.aws.ml.TensorflowOnAWS**
-- ![](../../resources/aws/ml/textract.png =75x75) **diagrams.aws.ml.Textract**
-- ![](../../resources/aws/ml/transcribe.png =75x75) **diagrams.aws.ml.Transcribe**
-- ![](../../resources/aws/ml/translate.png =75x75) **diagrams.aws.ml.Translate**
+- <img src="../../resources/aws/ml/apache-mxnet-on-aws.png" width="75" height="75"/> **diagrams.aws.ml.ApacheMxnetOnAWS**
+- <img src="../../resources/aws/ml/comprehend.png" width="75" height="75"/> **diagrams.aws.ml.Comprehend**
+- <img src="../../resources/aws/ml/deep-learning-amis.png" width="75" height="75"/> **diagrams.aws.ml.DeepLearningAmis**
+- <img src="../../resources/aws/ml/deep-learning-containers.png" width="75" height="75"/> **diagrams.aws.ml.DeepLearningContainers**, **DLC** (alias)
+- <img src="../../resources/aws/ml/deeplens.png" width="75" height="75"/> **diagrams.aws.ml.Deeplens**
+- <img src="../../resources/aws/ml/deepracer.png" width="75" height="75"/> **diagrams.aws.ml.Deepracer**
+- <img src="../../resources/aws/ml/elastic-inference.png" width="75" height="75"/> **diagrams.aws.ml.ElasticInference**
+- <img src="../../resources/aws/ml/forecast.png" width="75" height="75"/> **diagrams.aws.ml.Forecast**
+- <img src="../../resources/aws/ml/lex.png" width="75" height="75"/> **diagrams.aws.ml.Lex**
+- <img src="../../resources/aws/ml/machine-learning.png" width="75" height="75"/> **diagrams.aws.ml.MachineLearning**
+- <img src="../../resources/aws/ml/personalize.png" width="75" height="75"/> **diagrams.aws.ml.Personalize**
+- <img src="../../resources/aws/ml/polly.png" width="75" height="75"/> **diagrams.aws.ml.Polly**
+- <img src="../../resources/aws/ml/rekognition.png" width="75" height="75"/> **diagrams.aws.ml.Rekognition**
+- <img src="../../resources/aws/ml/sagemaker-ground-truth.png" width="75" height="75"/> **diagrams.aws.ml.SagemakerGroundTruth**
+- <img src="../../resources/aws/ml/sagemaker.png" width="75" height="75"/> **diagrams.aws.ml.Sagemaker**
+- <img src="../../resources/aws/ml/tensorflow-on-aws.png" width="75" height="75"/> **diagrams.aws.ml.TensorflowOnAWS**
+- <img src="../../resources/aws/ml/textract.png" width="75" height="75"/> **diagrams.aws.ml.Textract**
+- <img src="../../resources/aws/ml/transcribe.png" width="75" height="75"/> **diagrams.aws.ml.Transcribe**
+- <img src="../../resources/aws/ml/translate.png" width="75" height="75"/> **diagrams.aws.ml.Translate**
 
 ## aws.migration
 
-- ![](../../resources/aws/migration/application-discovery-service.png =75x75) **diagrams.aws.migration.ApplicationDiscoveryService**, **ADS** (alias)
-- ![](../../resources/aws/migration/cloudendure-migration.png =75x75) **diagrams.aws.migration.CloudendureMigration**, **CEM** (alias)
-- ![](../../resources/aws/migration/database-migration-service.png =75x75) **diagrams.aws.migration.DatabaseMigrationService**, **DMS** (alias)
-- ![](../../resources/aws/migration/datasync.png =75x75) **diagrams.aws.migration.Datasync**
-- ![](../../resources/aws/migration/migration-and-transfer.png =75x75) **diagrams.aws.migration.MigrationAndTransfer**, **MAT** (alias)
-- ![](../../resources/aws/migration/migration-hub.png =75x75) **diagrams.aws.migration.MigrationHub**
-- ![](../../resources/aws/migration/server-migration-service.png =75x75) **diagrams.aws.migration.ServerMigrationService**, **SMS** (alias)
-- ![](../../resources/aws/migration/snowball-edge.png =75x75) **diagrams.aws.migration.SnowballEdge**
-- ![](../../resources/aws/migration/snowball.png =75x75) **diagrams.aws.migration.Snowball**
-- ![](../../resources/aws/migration/snowmobile.png =75x75) **diagrams.aws.migration.Snowmobile**
-- ![](../../resources/aws/migration/transfer-for-sftp.png =75x75) **diagrams.aws.migration.TransferForSftp**
+- <img src="../../resources/aws/migration/application-discovery-service.png" width="75" height="75"/> **diagrams.aws.migration.ApplicationDiscoveryService**, **ADS** (alias)
+- <img src="../../resources/aws/migration/cloudendure-migration.png" width="75" height="75"/> **diagrams.aws.migration.CloudendureMigration**, **CEM** (alias)
+- <img src="../../resources/aws/migration/database-migration-service.png" width="75" height="75"/> **diagrams.aws.migration.DatabaseMigrationService**, **DMS** (alias)
+- <img src="../../resources/aws/migration/datasync.png" width="75" height="75"/> **diagrams.aws.migration.Datasync**
+- <img src="../../resources/aws/migration/migration-and-transfer.png" width="75" height="75"/> **diagrams.aws.migration.MigrationAndTransfer**, **MAT** (alias)
+- <img src="../../resources/aws/migration/migration-hub.png" width="75" height="75"/> **diagrams.aws.migration.MigrationHub**
+- <img src="../../resources/aws/migration/server-migration-service.png" width="75" height="75"/> **diagrams.aws.migration.ServerMigrationService**, **SMS** (alias)
+- <img src="../../resources/aws/migration/snowball-edge.png" width="75" height="75"/> **diagrams.aws.migration.SnowballEdge**
+- <img src="../../resources/aws/migration/snowball.png" width="75" height="75"/> **diagrams.aws.migration.Snowball**
+- <img src="../../resources/aws/migration/snowmobile.png" width="75" height="75"/> **diagrams.aws.migration.Snowmobile**
+- <img src="../../resources/aws/migration/transfer-for-sftp.png" width="75" height="75"/> **diagrams.aws.migration.TransferForSftp**
 
 ## aws.analytics
 
-- ![](../../resources/aws/analytics/analytics.png =75x75) **diagrams.aws.analytics.Analytics**
-- ![](../../resources/aws/analytics/athena.png =75x75) **diagrams.aws.analytics.Athena**
-- ![](../../resources/aws/analytics/cloudsearch-search-documents.png =75x75) **diagrams.aws.analytics.CloudsearchSearchDocuments**
-- ![](../../resources/aws/analytics/cloudsearch.png =75x75) **diagrams.aws.analytics.Cloudsearch**
-- ![](../../resources/aws/analytics/data-pipeline.png =75x75) **diagrams.aws.analytics.DataPipeline**
-- ![](../../resources/aws/analytics/elasticsearch-service.png =75x75) **diagrams.aws.analytics.ElasticsearchService**, **ES** (alias)
-- ![](../../resources/aws/analytics/emr-cluster.png =75x75) **diagrams.aws.analytics.EMRCluster**
-- ![](../../resources/aws/analytics/emr-hdfs-cluster.png =75x75) **diagrams.aws.analytics.EMRHdfsCluster**
-- ![](../../resources/aws/analytics/emr.png =75x75) **diagrams.aws.analytics.EMR**
-- ![](../../resources/aws/analytics/glue-crawlers.png =75x75) **diagrams.aws.analytics.GlueCrawlers**
-- ![](../../resources/aws/analytics/glue-data-catalog.png =75x75) **diagrams.aws.analytics.GlueDataCatalog**
-- ![](../../resources/aws/analytics/glue.png =75x75) **diagrams.aws.analytics.Glue**
-- ![](../../resources/aws/analytics/kinesis-data-analytics.png =75x75) **diagrams.aws.analytics.KinesisDataAnalytics**
-- ![](../../resources/aws/analytics/kinesis-data-firehose.png =75x75) **diagrams.aws.analytics.KinesisDataFirehose**
-- ![](../../resources/aws/analytics/kinesis-data-streams.png =75x75) **diagrams.aws.analytics.KinesisDataStreams**
-- ![](../../resources/aws/analytics/kinesis-video-streams.png =75x75) **diagrams.aws.analytics.KinesisVideoStreams**
-- ![](../../resources/aws/analytics/kinesis.png =75x75) **diagrams.aws.analytics.Kinesis**
-- ![](../../resources/aws/analytics/lake-formation.png =75x75) **diagrams.aws.analytics.LakeFormation**
-- ![](../../resources/aws/analytics/managed-streaming-for-kafka.png =75x75) **diagrams.aws.analytics.ManagedStreamingForKafka**
-- ![](../../resources/aws/analytics/quicksight.png =75x75) **diagrams.aws.analytics.Quicksight**
-- ![](../../resources/aws/analytics/redshift-dense-compute-node.png =75x75) **diagrams.aws.analytics.RedshiftDenseComputeNode**
-- ![](../../resources/aws/analytics/redshift-dense-storage-node.png =75x75) **diagrams.aws.analytics.RedshiftDenseStorageNode**
-- ![](../../resources/aws/analytics/redshift.png =75x75) **diagrams.aws.analytics.Redshift**
+- <img src="../../resources/aws/analytics/analytics.png" width="75" height="75"/> **diagrams.aws.analytics.Analytics**
+- <img src="../../resources/aws/analytics/athena.png" width="75" height="75"/> **diagrams.aws.analytics.Athena**
+- <img src="../../resources/aws/analytics/cloudsearch-search-documents.png" width="75" height="75"/> **diagrams.aws.analytics.CloudsearchSearchDocuments**
+- <img src="../../resources/aws/analytics/cloudsearch.png" width="75" height="75"/> **diagrams.aws.analytics.Cloudsearch**
+- <img src="../../resources/aws/analytics/data-pipeline.png" width="75" height="75"/> **diagrams.aws.analytics.DataPipeline**
+- <img src="../../resources/aws/analytics/elasticsearch-service.png" width="75" height="75"/> **diagrams.aws.analytics.ElasticsearchService**, **ES** (alias)
+- <img src="../../resources/aws/analytics/emr-cluster.png" width="75" height="75"/> **diagrams.aws.analytics.EMRCluster**
+- <img src="../../resources/aws/analytics/emr-hdfs-cluster.png" width="75" height="75"/> **diagrams.aws.analytics.EMRHdfsCluster**
+- <img src="../../resources/aws/analytics/emr.png" width="75" height="75"/> **diagrams.aws.analytics.EMR**
+- <img src="../../resources/aws/analytics/glue-crawlers.png" width="75" height="75"/> **diagrams.aws.analytics.GlueCrawlers**
+- <img src="../../resources/aws/analytics/glue-data-catalog.png" width="75" height="75"/> **diagrams.aws.analytics.GlueDataCatalog**
+- <img src="../../resources/aws/analytics/glue.png" width="75" height="75"/> **diagrams.aws.analytics.Glue**
+- <img src="../../resources/aws/analytics/kinesis-data-analytics.png" width="75" height="75"/> **diagrams.aws.analytics.KinesisDataAnalytics**
+- <img src="../../resources/aws/analytics/kinesis-data-firehose.png" width="75" height="75"/> **diagrams.aws.analytics.KinesisDataFirehose**
+- <img src="../../resources/aws/analytics/kinesis-data-streams.png" width="75" height="75"/> **diagrams.aws.analytics.KinesisDataStreams**
+- <img src="../../resources/aws/analytics/kinesis-video-streams.png" width="75" height="75"/> **diagrams.aws.analytics.KinesisVideoStreams**
+- <img src="../../resources/aws/analytics/kinesis.png" width="75" height="75"/> **diagrams.aws.analytics.Kinesis**
+- <img src="../../resources/aws/analytics/lake-formation.png" width="75" height="75"/> **diagrams.aws.analytics.LakeFormation**
+- <img src="../../resources/aws/analytics/managed-streaming-for-kafka.png" width="75" height="75"/> **diagrams.aws.analytics.ManagedStreamingForKafka**
+- <img src="../../resources/aws/analytics/quicksight.png" width="75" height="75"/> **diagrams.aws.analytics.Quicksight**
+- <img src="../../resources/aws/analytics/redshift-dense-compute-node.png" width="75" height="75"/> **diagrams.aws.analytics.RedshiftDenseComputeNode**
+- <img src="../../resources/aws/analytics/redshift-dense-storage-node.png" width="75" height="75"/> **diagrams.aws.analytics.RedshiftDenseStorageNode**
+- <img src="../../resources/aws/analytics/redshift.png" width="75" height="75"/> **diagrams.aws.analytics.Redshift**
 
 ## aws.media
 
-- ![](../../resources/aws/media/elastic-transcoder.png =75x75) **diagrams.aws.media.ElasticTranscoder**
-- ![](../../resources/aws/media/elemental-conductor.png =75x75) **diagrams.aws.media.ElementalConductor**
-- ![](../../resources/aws/media/elemental-delta.png =75x75) **diagrams.aws.media.ElementalDelta**
-- ![](../../resources/aws/media/elemental-live.png =75x75) **diagrams.aws.media.ElementalLive**
-- ![](../../resources/aws/media/elemental-mediaconnect.png =75x75) **diagrams.aws.media.ElementalMediaconnect**
-- ![](../../resources/aws/media/elemental-mediaconvert.png =75x75) **diagrams.aws.media.ElementalMediaconvert**
-- ![](../../resources/aws/media/elemental-medialive.png =75x75) **diagrams.aws.media.ElementalMedialive**
-- ![](../../resources/aws/media/elemental-mediapackage.png =75x75) **diagrams.aws.media.ElementalMediapackage**
-- ![](../../resources/aws/media/elemental-mediastore.png =75x75) **diagrams.aws.media.ElementalMediastore**
-- ![](../../resources/aws/media/elemental-mediatailor.png =75x75) **diagrams.aws.media.ElementalMediatailor**
-- ![](../../resources/aws/media/elemental-server.png =75x75) **diagrams.aws.media.ElementalServer**
+- <img src="../../resources/aws/media/elastic-transcoder.png" width="75" height="75"/> **diagrams.aws.media.ElasticTranscoder**
+- <img src="../../resources/aws/media/elemental-conductor.png" width="75" height="75"/> **diagrams.aws.media.ElementalConductor**
+- <img src="../../resources/aws/media/elemental-delta.png" width="75" height="75"/> **diagrams.aws.media.ElementalDelta**
+- <img src="../../resources/aws/media/elemental-live.png" width="75" height="75"/> **diagrams.aws.media.ElementalLive**
+- <img src="../../resources/aws/media/elemental-mediaconnect.png" width="75" height="75"/> **diagrams.aws.media.ElementalMediaconnect**
+- <img src="../../resources/aws/media/elemental-mediaconvert.png" width="75" height="75"/> **diagrams.aws.media.ElementalMediaconvert**
+- <img src="../../resources/aws/media/elemental-medialive.png" width="75" height="75"/> **diagrams.aws.media.ElementalMedialive**
+- <img src="../../resources/aws/media/elemental-mediapackage.png" width="75" height="75"/> **diagrams.aws.media.ElementalMediapackage**
+- <img src="../../resources/aws/media/elemental-mediastore.png" width="75" height="75"/> **diagrams.aws.media.ElementalMediastore**
+- <img src="../../resources/aws/media/elemental-mediatailor.png" width="75" height="75"/> **diagrams.aws.media.ElementalMediatailor**
+- <img src="../../resources/aws/media/elemental-server.png" width="75" height="75"/> **diagrams.aws.media.ElementalServer**

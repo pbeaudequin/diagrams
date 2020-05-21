@@ -7,124 +7,124 @@ Node classes list of alibabacloud provider.
 
 ## alibabacloud.database
 
-- ![](../../resources/alibabacloud/database/apsaradb-cassandra.png =75x75) **diagrams.alibabacloud.database.ApsaradbCassandra**
-- ![](../../resources/alibabacloud/database/apsaradb-hbase.png =75x75) **diagrams.alibabacloud.database.ApsaradbHbase**
-- ![](../../resources/alibabacloud/database/apsaradb-memcache.png =75x75) **diagrams.alibabacloud.database.ApsaradbMemcache**
-- ![](../../resources/alibabacloud/database/apsaradb-mongodb.png =75x75) **diagrams.alibabacloud.database.ApsaradbMongodb**
-- ![](../../resources/alibabacloud/database/apsaradb-oceanbase.png =75x75) **diagrams.alibabacloud.database.ApsaradbOceanbase**
-- ![](../../resources/alibabacloud/database/apsaradb-polardb.png =75x75) **diagrams.alibabacloud.database.ApsaradbPolardb**
-- ![](../../resources/alibabacloud/database/apsaradb-postgresql.png =75x75) **diagrams.alibabacloud.database.ApsaradbPostgresql**
-- ![](../../resources/alibabacloud/database/apsaradb-ppas.png =75x75) **diagrams.alibabacloud.database.ApsaradbPpas**
-- ![](../../resources/alibabacloud/database/apsaradb-redis.png =75x75) **diagrams.alibabacloud.database.ApsaradbRedis**
-- ![](../../resources/alibabacloud/database/apsaradb-sqlserver.png =75x75) **diagrams.alibabacloud.database.ApsaradbSqlserver**
-- ![](../../resources/alibabacloud/database/data-management-service.png =75x75) **diagrams.alibabacloud.database.DataManagementService**, **DMS** (alias)
-- ![](../../resources/alibabacloud/database/data-transmission-service.png =75x75) **diagrams.alibabacloud.database.DataTransmissionService**, **DTS** (alias)
-- ![](../../resources/alibabacloud/database/database-backup-service.png =75x75) **diagrams.alibabacloud.database.DatabaseBackupService**, **DBS** (alias)
-- ![](../../resources/alibabacloud/database/disribute-relational-database-service.png =75x75) **diagrams.alibabacloud.database.DisributeRelationalDatabaseService**, **DRDS** (alias)
-- ![](../../resources/alibabacloud/database/graph-database-service.png =75x75) **diagrams.alibabacloud.database.GraphDatabaseService**, **GDS** (alias)
-- ![](../../resources/alibabacloud/database/hybriddb-for-mysql.png =75x75) **diagrams.alibabacloud.database.HybriddbForMysql**
-- ![](../../resources/alibabacloud/database/relational-database-service.png =75x75) **diagrams.alibabacloud.database.RelationalDatabaseService**, **RDS** (alias)
+- <img src="../../resources/alibabacloud/database/apsaradb-cassandra.png" width="75" height="75"/> **diagrams.alibabacloud.database.ApsaradbCassandra**
+- <img src="../../resources/alibabacloud/database/apsaradb-hbase.png" width="75" height="75"/> **diagrams.alibabacloud.database.ApsaradbHbase**
+- <img src="../../resources/alibabacloud/database/apsaradb-memcache.png" width="75" height="75"/> **diagrams.alibabacloud.database.ApsaradbMemcache**
+- <img src="../../resources/alibabacloud/database/apsaradb-mongodb.png" width="75" height="75"/> **diagrams.alibabacloud.database.ApsaradbMongodb**
+- <img src="../../resources/alibabacloud/database/apsaradb-oceanbase.png" width="75" height="75"/> **diagrams.alibabacloud.database.ApsaradbOceanbase**
+- <img src="../../resources/alibabacloud/database/apsaradb-polardb.png" width="75" height="75"/> **diagrams.alibabacloud.database.ApsaradbPolardb**
+- <img src="../../resources/alibabacloud/database/apsaradb-postgresql.png" width="75" height="75"/> **diagrams.alibabacloud.database.ApsaradbPostgresql**
+- <img src="../../resources/alibabacloud/database/apsaradb-ppas.png" width="75" height="75"/> **diagrams.alibabacloud.database.ApsaradbPpas**
+- <img src="../../resources/alibabacloud/database/apsaradb-redis.png" width="75" height="75"/> **diagrams.alibabacloud.database.ApsaradbRedis**
+- <img src="../../resources/alibabacloud/database/apsaradb-sqlserver.png" width="75" height="75"/> **diagrams.alibabacloud.database.ApsaradbSqlserver**
+- <img src="../../resources/alibabacloud/database/data-management-service.png" width="75" height="75"/> **diagrams.alibabacloud.database.DataManagementService**, **DMS** (alias)
+- <img src="../../resources/alibabacloud/database/data-transmission-service.png" width="75" height="75"/> **diagrams.alibabacloud.database.DataTransmissionService**, **DTS** (alias)
+- <img src="../../resources/alibabacloud/database/database-backup-service.png" width="75" height="75"/> **diagrams.alibabacloud.database.DatabaseBackupService**, **DBS** (alias)
+- <img src="../../resources/alibabacloud/database/disribute-relational-database-service.png" width="75" height="75"/> **diagrams.alibabacloud.database.DisributeRelationalDatabaseService**, **DRDS** (alias)
+- <img src="../../resources/alibabacloud/database/graph-database-service.png" width="75" height="75"/> **diagrams.alibabacloud.database.GraphDatabaseService**, **GDS** (alias)
+- <img src="../../resources/alibabacloud/database/hybriddb-for-mysql.png" width="75" height="75"/> **diagrams.alibabacloud.database.HybriddbForMysql**
+- <img src="../../resources/alibabacloud/database/relational-database-service.png" width="75" height="75"/> **diagrams.alibabacloud.database.RelationalDatabaseService**, **RDS** (alias)
 
 ## alibabacloud.security
 
-- ![](../../resources/alibabacloud/security/anti-bot-service.png =75x75) **diagrams.alibabacloud.security.AntiBotService**, **ABS** (alias)
-- ![](../../resources/alibabacloud/security/anti-ddos-basic.png =75x75) **diagrams.alibabacloud.security.AntiDdosBasic**
-- ![](../../resources/alibabacloud/security/anti-ddos-pro.png =75x75) **diagrams.alibabacloud.security.AntiDdosPro**
-- ![](../../resources/alibabacloud/security/antifraud-service.png =75x75) **diagrams.alibabacloud.security.AntifraudService**, **AS** (alias)
-- ![](../../resources/alibabacloud/security/bastion-host.png =75x75) **diagrams.alibabacloud.security.BastionHost**
-- ![](../../resources/alibabacloud/security/cloud-firewall.png =75x75) **diagrams.alibabacloud.security.CloudFirewall**, **CFW** (alias)
-- ![](../../resources/alibabacloud/security/cloud-security-scanner.png =75x75) **diagrams.alibabacloud.security.CloudSecurityScanner**
-- ![](../../resources/alibabacloud/security/content-moderation.png =75x75) **diagrams.alibabacloud.security.ContentModeration**, **CM** (alias)
-- ![](../../resources/alibabacloud/security/crowdsourced-security-testing.png =75x75) **diagrams.alibabacloud.security.CrowdsourcedSecurityTesting**
-- ![](../../resources/alibabacloud/security/data-encryption-service.png =75x75) **diagrams.alibabacloud.security.DataEncryptionService**, **DES** (alias)
-- ![](../../resources/alibabacloud/security/db-audit.png =75x75) **diagrams.alibabacloud.security.DbAudit**
-- ![](../../resources/alibabacloud/security/game-shield.png =75x75) **diagrams.alibabacloud.security.GameShield**
-- ![](../../resources/alibabacloud/security/id-verification.png =75x75) **diagrams.alibabacloud.security.IdVerification**
-- ![](../../resources/alibabacloud/security/managed-security-service.png =75x75) **diagrams.alibabacloud.security.ManagedSecurityService**
-- ![](../../resources/alibabacloud/security/security-center.png =75x75) **diagrams.alibabacloud.security.SecurityCenter**
-- ![](../../resources/alibabacloud/security/server-guard.png =75x75) **diagrams.alibabacloud.security.ServerGuard**
-- ![](../../resources/alibabacloud/security/ssl-certificates.png =75x75) **diagrams.alibabacloud.security.SslCertificates**
-- ![](../../resources/alibabacloud/security/web-application-firewall.png =75x75) **diagrams.alibabacloud.security.WebApplicationFirewall**, **WAF** (alias)
+- <img src="../../resources/alibabacloud/security/anti-bot-service.png" width="75" height="75"/> **diagrams.alibabacloud.security.AntiBotService**, **ABS** (alias)
+- <img src="../../resources/alibabacloud/security/anti-ddos-basic.png" width="75" height="75"/> **diagrams.alibabacloud.security.AntiDdosBasic**
+- <img src="../../resources/alibabacloud/security/anti-ddos-pro.png" width="75" height="75"/> **diagrams.alibabacloud.security.AntiDdosPro**
+- <img src="../../resources/alibabacloud/security/antifraud-service.png" width="75" height="75"/> **diagrams.alibabacloud.security.AntifraudService**, **AS** (alias)
+- <img src="../../resources/alibabacloud/security/bastion-host.png" width="75" height="75"/> **diagrams.alibabacloud.security.BastionHost**
+- <img src="../../resources/alibabacloud/security/cloud-firewall.png" width="75" height="75"/> **diagrams.alibabacloud.security.CloudFirewall**, **CFW** (alias)
+- <img src="../../resources/alibabacloud/security/cloud-security-scanner.png" width="75" height="75"/> **diagrams.alibabacloud.security.CloudSecurityScanner**
+- <img src="../../resources/alibabacloud/security/content-moderation.png" width="75" height="75"/> **diagrams.alibabacloud.security.ContentModeration**, **CM** (alias)
+- <img src="../../resources/alibabacloud/security/crowdsourced-security-testing.png" width="75" height="75"/> **diagrams.alibabacloud.security.CrowdsourcedSecurityTesting**
+- <img src="../../resources/alibabacloud/security/data-encryption-service.png" width="75" height="75"/> **diagrams.alibabacloud.security.DataEncryptionService**, **DES** (alias)
+- <img src="../../resources/alibabacloud/security/db-audit.png" width="75" height="75"/> **diagrams.alibabacloud.security.DbAudit**
+- <img src="../../resources/alibabacloud/security/game-shield.png" width="75" height="75"/> **diagrams.alibabacloud.security.GameShield**
+- <img src="../../resources/alibabacloud/security/id-verification.png" width="75" height="75"/> **diagrams.alibabacloud.security.IdVerification**
+- <img src="../../resources/alibabacloud/security/managed-security-service.png" width="75" height="75"/> **diagrams.alibabacloud.security.ManagedSecurityService**
+- <img src="../../resources/alibabacloud/security/security-center.png" width="75" height="75"/> **diagrams.alibabacloud.security.SecurityCenter**
+- <img src="../../resources/alibabacloud/security/server-guard.png" width="75" height="75"/> **diagrams.alibabacloud.security.ServerGuard**
+- <img src="../../resources/alibabacloud/security/ssl-certificates.png" width="75" height="75"/> **diagrams.alibabacloud.security.SslCertificates**
+- <img src="../../resources/alibabacloud/security/web-application-firewall.png" width="75" height="75"/> **diagrams.alibabacloud.security.WebApplicationFirewall**, **WAF** (alias)
 
 ## alibabacloud.web
 
-- ![](../../resources/alibabacloud/web/dns.png =75x75) **diagrams.alibabacloud.web.Dns**
-- ![](../../resources/alibabacloud/web/domain.png =75x75) **diagrams.alibabacloud.web.Domain**
+- <img src="../../resources/alibabacloud/web/dns.png" width="75" height="75"/> **diagrams.alibabacloud.web.Dns**
+- <img src="../../resources/alibabacloud/web/domain.png" width="75" height="75"/> **diagrams.alibabacloud.web.Domain**
 
 ## alibabacloud.network
 
-- ![](../../resources/alibabacloud/network/cdn.png =75x75) **diagrams.alibabacloud.network.Cdn**
-- ![](../../resources/alibabacloud/network/cloud-enterprise-network.png =75x75) **diagrams.alibabacloud.network.CloudEnterpriseNetwork**, **CEN** (alias)
-- ![](../../resources/alibabacloud/network/elastic-ip-address.png =75x75) **diagrams.alibabacloud.network.ElasticIpAddress**, **EIP** (alias)
-- ![](../../resources/alibabacloud/network/express-connect.png =75x75) **diagrams.alibabacloud.network.ExpressConnect**
-- ![](../../resources/alibabacloud/network/nat-gateway.png =75x75) **diagrams.alibabacloud.network.NatGateway**
-- ![](../../resources/alibabacloud/network/server-load-balancer.png =75x75) **diagrams.alibabacloud.network.ServerLoadBalancer**, **SLB** (alias)
-- ![](../../resources/alibabacloud/network/smart-access-gateway.png =75x75) **diagrams.alibabacloud.network.SmartAccessGateway**
-- ![](../../resources/alibabacloud/network/virtual-private-cloud.png =75x75) **diagrams.alibabacloud.network.VirtualPrivateCloud**, **VPC** (alias)
-- ![](../../resources/alibabacloud/network/vpn-gateway.png =75x75) **diagrams.alibabacloud.network.VpnGateway**
+- <img src="../../resources/alibabacloud/network/cdn.png" width="75" height="75"/> **diagrams.alibabacloud.network.Cdn**
+- <img src="../../resources/alibabacloud/network/cloud-enterprise-network.png" width="75" height="75"/> **diagrams.alibabacloud.network.CloudEnterpriseNetwork**, **CEN** (alias)
+- <img src="../../resources/alibabacloud/network/elastic-ip-address.png" width="75" height="75"/> **diagrams.alibabacloud.network.ElasticIpAddress**, **EIP** (alias)
+- <img src="../../resources/alibabacloud/network/express-connect.png" width="75" height="75"/> **diagrams.alibabacloud.network.ExpressConnect**
+- <img src="../../resources/alibabacloud/network/nat-gateway.png" width="75" height="75"/> **diagrams.alibabacloud.network.NatGateway**
+- <img src="../../resources/alibabacloud/network/server-load-balancer.png" width="75" height="75"/> **diagrams.alibabacloud.network.ServerLoadBalancer**, **SLB** (alias)
+- <img src="../../resources/alibabacloud/network/smart-access-gateway.png" width="75" height="75"/> **diagrams.alibabacloud.network.SmartAccessGateway**
+- <img src="../../resources/alibabacloud/network/virtual-private-cloud.png" width="75" height="75"/> **diagrams.alibabacloud.network.VirtualPrivateCloud**, **VPC** (alias)
+- <img src="../../resources/alibabacloud/network/vpn-gateway.png" width="75" height="75"/> **diagrams.alibabacloud.network.VpnGateway**
 
 ## alibabacloud.storage
 
-- ![](../../resources/alibabacloud/storage/cloud-storage-gateway.png =75x75) **diagrams.alibabacloud.storage.CloudStorageGateway**
-- ![](../../resources/alibabacloud/storage/file-storage-hdfs.png =75x75) **diagrams.alibabacloud.storage.FileStorageHdfs**, **HDFS** (alias)
-- ![](../../resources/alibabacloud/storage/file-storage-nas.png =75x75) **diagrams.alibabacloud.storage.FileStorageNas**, **NAS** (alias)
-- ![](../../resources/alibabacloud/storage/hybrid-backup-recovery.png =75x75) **diagrams.alibabacloud.storage.HybridBackupRecovery**, **HBR** (alias)
-- ![](../../resources/alibabacloud/storage/hybrid-cloud-disaster-recovery.png =75x75) **diagrams.alibabacloud.storage.HybridCloudDisasterRecovery**, **HDR** (alias)
-- ![](../../resources/alibabacloud/storage/imm.png =75x75) **diagrams.alibabacloud.storage.Imm**
-- ![](../../resources/alibabacloud/storage/object-storage-service.png =75x75) **diagrams.alibabacloud.storage.ObjectStorageService**, **OSS** (alias)
-- ![](../../resources/alibabacloud/storage/object-table-store.png =75x75) **diagrams.alibabacloud.storage.ObjectTableStore**, **OTS** (alias)
+- <img src="../../resources/alibabacloud/storage/cloud-storage-gateway.png" width="75" height="75"/> **diagrams.alibabacloud.storage.CloudStorageGateway**
+- <img src="../../resources/alibabacloud/storage/file-storage-hdfs.png" width="75" height="75"/> **diagrams.alibabacloud.storage.FileStorageHdfs**, **HDFS** (alias)
+- <img src="../../resources/alibabacloud/storage/file-storage-nas.png" width="75" height="75"/> **diagrams.alibabacloud.storage.FileStorageNas**, **NAS** (alias)
+- <img src="../../resources/alibabacloud/storage/hybrid-backup-recovery.png" width="75" height="75"/> **diagrams.alibabacloud.storage.HybridBackupRecovery**, **HBR** (alias)
+- <img src="../../resources/alibabacloud/storage/hybrid-cloud-disaster-recovery.png" width="75" height="75"/> **diagrams.alibabacloud.storage.HybridCloudDisasterRecovery**, **HDR** (alias)
+- <img src="../../resources/alibabacloud/storage/imm.png" width="75" height="75"/> **diagrams.alibabacloud.storage.Imm**
+- <img src="../../resources/alibabacloud/storage/object-storage-service.png" width="75" height="75"/> **diagrams.alibabacloud.storage.ObjectStorageService**, **OSS** (alias)
+- <img src="../../resources/alibabacloud/storage/object-table-store.png" width="75" height="75"/> **diagrams.alibabacloud.storage.ObjectTableStore**, **OTS** (alias)
 
 ## alibabacloud.iot
 
-- ![](../../resources/alibabacloud/iot/iot-internet-device-id.png =75x75) **diagrams.alibabacloud.iot.IotInternetDeviceId**
-- ![](../../resources/alibabacloud/iot/iot-link-wan.png =75x75) **diagrams.alibabacloud.iot.IotLinkWan**
-- ![](../../resources/alibabacloud/iot/iot-mobile-connection-package.png =75x75) **diagrams.alibabacloud.iot.IotMobileConnectionPackage**
-- ![](../../resources/alibabacloud/iot/iot-platform.png =75x75) **diagrams.alibabacloud.iot.IotPlatform**
+- <img src="../../resources/alibabacloud/iot/iot-internet-device-id.png" width="75" height="75"/> **diagrams.alibabacloud.iot.IotInternetDeviceId**
+- <img src="../../resources/alibabacloud/iot/iot-link-wan.png" width="75" height="75"/> **diagrams.alibabacloud.iot.IotLinkWan**
+- <img src="../../resources/alibabacloud/iot/iot-mobile-connection-package.png" width="75" height="75"/> **diagrams.alibabacloud.iot.IotMobileConnectionPackage**
+- <img src="../../resources/alibabacloud/iot/iot-platform.png" width="75" height="75"/> **diagrams.alibabacloud.iot.IotPlatform**
 
 ## alibabacloud.compute
 
-- ![](../../resources/alibabacloud/compute/auto-scaling.png =75x75) **diagrams.alibabacloud.compute.AutoScaling**, **ESS** (alias)
-- ![](../../resources/alibabacloud/compute/batch-compute.png =75x75) **diagrams.alibabacloud.compute.BatchCompute**
-- ![](../../resources/alibabacloud/compute/container-registry.png =75x75) **diagrams.alibabacloud.compute.ContainerRegistry**
-- ![](../../resources/alibabacloud/compute/container-service.png =75x75) **diagrams.alibabacloud.compute.ContainerService**
-- ![](../../resources/alibabacloud/compute/elastic-compute-service.png =75x75) **diagrams.alibabacloud.compute.ElasticComputeService**, **ECS** (alias)
-- ![](../../resources/alibabacloud/compute/elastic-container-instance.png =75x75) **diagrams.alibabacloud.compute.ElasticContainerInstance**, **ECI** (alias)
-- ![](../../resources/alibabacloud/compute/elastic-high-performance-computing.png =75x75) **diagrams.alibabacloud.compute.ElasticHighPerformanceComputing**, **EHPC** (alias)
-- ![](../../resources/alibabacloud/compute/elastic-search.png =75x75) **diagrams.alibabacloud.compute.ElasticSearch**
-- ![](../../resources/alibabacloud/compute/function-compute.png =75x75) **diagrams.alibabacloud.compute.FunctionCompute**, **FC** (alias)
-- ![](../../resources/alibabacloud/compute/operation-orchestration-service.png =75x75) **diagrams.alibabacloud.compute.OperationOrchestrationService**, **OOS** (alias)
-- ![](../../resources/alibabacloud/compute/resource-orchestration-service.png =75x75) **diagrams.alibabacloud.compute.ResourceOrchestrationService**, **ROS** (alias)
-- ![](../../resources/alibabacloud/compute/server-load-balancer.png =75x75) **diagrams.alibabacloud.compute.ServerLoadBalancer**, **SLB** (alias)
-- ![](../../resources/alibabacloud/compute/serverless-app-engine.png =75x75) **diagrams.alibabacloud.compute.ServerlessAppEngine**, **SAE** (alias)
-- ![](../../resources/alibabacloud/compute/simple-application-server.png =75x75) **diagrams.alibabacloud.compute.SimpleApplicationServer**, **SAS** (alias)
-- ![](../../resources/alibabacloud/compute/web-app-service.png =75x75) **diagrams.alibabacloud.compute.WebAppService**, **WAS** (alias)
+- <img src="../../resources/alibabacloud/compute/auto-scaling.png" width="75" height="75"/> **diagrams.alibabacloud.compute.AutoScaling**, **ESS** (alias)
+- <img src="../../resources/alibabacloud/compute/batch-compute.png" width="75" height="75"/> **diagrams.alibabacloud.compute.BatchCompute**
+- <img src="../../resources/alibabacloud/compute/container-registry.png" width="75" height="75"/> **diagrams.alibabacloud.compute.ContainerRegistry**
+- <img src="../../resources/alibabacloud/compute/container-service.png" width="75" height="75"/> **diagrams.alibabacloud.compute.ContainerService**
+- <img src="../../resources/alibabacloud/compute/elastic-compute-service.png" width="75" height="75"/> **diagrams.alibabacloud.compute.ElasticComputeService**, **ECS** (alias)
+- <img src="../../resources/alibabacloud/compute/elastic-container-instance.png" width="75" height="75"/> **diagrams.alibabacloud.compute.ElasticContainerInstance**, **ECI** (alias)
+- <img src="../../resources/alibabacloud/compute/elastic-high-performance-computing.png" width="75" height="75"/> **diagrams.alibabacloud.compute.ElasticHighPerformanceComputing**, **EHPC** (alias)
+- <img src="../../resources/alibabacloud/compute/elastic-search.png" width="75" height="75"/> **diagrams.alibabacloud.compute.ElasticSearch**
+- <img src="../../resources/alibabacloud/compute/function-compute.png" width="75" height="75"/> **diagrams.alibabacloud.compute.FunctionCompute**, **FC** (alias)
+- <img src="../../resources/alibabacloud/compute/operation-orchestration-service.png" width="75" height="75"/> **diagrams.alibabacloud.compute.OperationOrchestrationService**, **OOS** (alias)
+- <img src="../../resources/alibabacloud/compute/resource-orchestration-service.png" width="75" height="75"/> **diagrams.alibabacloud.compute.ResourceOrchestrationService**, **ROS** (alias)
+- <img src="../../resources/alibabacloud/compute/server-load-balancer.png" width="75" height="75"/> **diagrams.alibabacloud.compute.ServerLoadBalancer**, **SLB** (alias)
+- <img src="../../resources/alibabacloud/compute/serverless-app-engine.png" width="75" height="75"/> **diagrams.alibabacloud.compute.ServerlessAppEngine**, **SAE** (alias)
+- <img src="../../resources/alibabacloud/compute/simple-application-server.png" width="75" height="75"/> **diagrams.alibabacloud.compute.SimpleApplicationServer**, **SAS** (alias)
+- <img src="../../resources/alibabacloud/compute/web-app-service.png" width="75" height="75"/> **diagrams.alibabacloud.compute.WebAppService**, **WAS** (alias)
 
 ## alibabacloud.application
 
-- ![](../../resources/alibabacloud/application/api-gateway.png =75x75) **diagrams.alibabacloud.application.ApiGateway**
-- ![](../../resources/alibabacloud/application/bee-bot.png =75x75) **diagrams.alibabacloud.application.BeeBot**
-- ![](../../resources/alibabacloud/application/blockchain-as-a-service.png =75x75) **diagrams.alibabacloud.application.BlockchainAsAService**
-- ![](../../resources/alibabacloud/application/cloud-call-center.png =75x75) **diagrams.alibabacloud.application.CloudCallCenter**
-- ![](../../resources/alibabacloud/application/code-pipeline.png =75x75) **diagrams.alibabacloud.application.CodePipeline**
-- ![](../../resources/alibabacloud/application/direct-mail.png =75x75) **diagrams.alibabacloud.application.DirectMail**
-- ![](../../resources/alibabacloud/application/log-service.png =75x75) **diagrams.alibabacloud.application.LogService**, **SLS** (alias)
-- ![](../../resources/alibabacloud/application/message-notification-service.png =75x75) **diagrams.alibabacloud.application.MessageNotificationService**, **MNS** (alias)
-- ![](../../resources/alibabacloud/application/node-js-performance-platform.png =75x75) **diagrams.alibabacloud.application.NodeJsPerformancePlatform**
-- ![](../../resources/alibabacloud/application/open-search.png =75x75) **diagrams.alibabacloud.application.OpenSearch**
-- ![](../../resources/alibabacloud/application/performance-testing-service.png =75x75) **diagrams.alibabacloud.application.PerformanceTestingService**, **PTS** (alias)
-- ![](../../resources/alibabacloud/application/rd-cloud.png =75x75) **diagrams.alibabacloud.application.RdCloud**
-- ![](../../resources/alibabacloud/application/smart-conversation-analysis.png =75x75) **diagrams.alibabacloud.application.SmartConversationAnalysis**, **SCA** (alias)
-- ![](../../resources/alibabacloud/application/yida.png =75x75) **diagrams.alibabacloud.application.Yida**
+- <img src="../../resources/alibabacloud/application/api-gateway.png" width="75" height="75"/> **diagrams.alibabacloud.application.ApiGateway**
+- <img src="../../resources/alibabacloud/application/bee-bot.png" width="75" height="75"/> **diagrams.alibabacloud.application.BeeBot**
+- <img src="../../resources/alibabacloud/application/blockchain-as-a-service.png" width="75" height="75"/> **diagrams.alibabacloud.application.BlockchainAsAService**
+- <img src="../../resources/alibabacloud/application/cloud-call-center.png" width="75" height="75"/> **diagrams.alibabacloud.application.CloudCallCenter**
+- <img src="../../resources/alibabacloud/application/code-pipeline.png" width="75" height="75"/> **diagrams.alibabacloud.application.CodePipeline**
+- <img src="../../resources/alibabacloud/application/direct-mail.png" width="75" height="75"/> **diagrams.alibabacloud.application.DirectMail**
+- <img src="../../resources/alibabacloud/application/log-service.png" width="75" height="75"/> **diagrams.alibabacloud.application.LogService**, **SLS** (alias)
+- <img src="../../resources/alibabacloud/application/message-notification-service.png" width="75" height="75"/> **diagrams.alibabacloud.application.MessageNotificationService**, **MNS** (alias)
+- <img src="../../resources/alibabacloud/application/node-js-performance-platform.png" width="75" height="75"/> **diagrams.alibabacloud.application.NodeJsPerformancePlatform**
+- <img src="../../resources/alibabacloud/application/open-search.png" width="75" height="75"/> **diagrams.alibabacloud.application.OpenSearch**
+- <img src="../../resources/alibabacloud/application/performance-testing-service.png" width="75" height="75"/> **diagrams.alibabacloud.application.PerformanceTestingService**, **PTS** (alias)
+- <img src="../../resources/alibabacloud/application/rd-cloud.png" width="75" height="75"/> **diagrams.alibabacloud.application.RdCloud**
+- <img src="../../resources/alibabacloud/application/smart-conversation-analysis.png" width="75" height="75"/> **diagrams.alibabacloud.application.SmartConversationAnalysis**, **SCA** (alias)
+- <img src="../../resources/alibabacloud/application/yida.png" width="75" height="75"/> **diagrams.alibabacloud.application.Yida**
 
 ## alibabacloud.communication
 
-- ![](../../resources/alibabacloud/communication/direct-mail.png =75x75) **diagrams.alibabacloud.communication.DirectMail**
-- ![](../../resources/alibabacloud/communication/mobile-push.png =75x75) **diagrams.alibabacloud.communication.MobilePush**
+- <img src="../../resources/alibabacloud/communication/direct-mail.png" width="75" height="75"/> **diagrams.alibabacloud.communication.DirectMail**
+- <img src="../../resources/alibabacloud/communication/mobile-push.png" width="75" height="75"/> **diagrams.alibabacloud.communication.MobilePush**
 
 ## alibabacloud.analytics
 
-- ![](../../resources/alibabacloud/analytics/analytic-db.png =75x75) **diagrams.alibabacloud.analytics.AnalyticDb**
-- ![](../../resources/alibabacloud/analytics/click-house.png =75x75) **diagrams.alibabacloud.analytics.ClickHouse**
-- ![](../../resources/alibabacloud/analytics/data-lake-analytics.png =75x75) **diagrams.alibabacloud.analytics.DataLakeAnalytics**
-- ![](../../resources/alibabacloud/analytics/elatic-map-reduce.png =75x75) **diagrams.alibabacloud.analytics.ElaticMapReduce**
-- ![](../../resources/alibabacloud/analytics/open-search.png =75x75) **diagrams.alibabacloud.analytics.OpenSearch**
+- <img src="../../resources/alibabacloud/analytics/analytic-db.png" width="75" height="75"/> **diagrams.alibabacloud.analytics.AnalyticDb**
+- <img src="../../resources/alibabacloud/analytics/click-house.png" width="75" height="75"/> **diagrams.alibabacloud.analytics.ClickHouse**
+- <img src="../../resources/alibabacloud/analytics/data-lake-analytics.png" width="75" height="75"/> **diagrams.alibabacloud.analytics.DataLakeAnalytics**
+- <img src="../../resources/alibabacloud/analytics/elatic-map-reduce.png" width="75" height="75"/> **diagrams.alibabacloud.analytics.ElaticMapReduce**
+- <img src="../../resources/alibabacloud/analytics/open-search.png" width="75" height="75"/> **diagrams.alibabacloud.analytics.OpenSearch**

@@ -40,6 +40,7 @@ FILE_PREFIXES = {
 #########################
 
 TMPL_APIDOC = "apidoc.tmpl"
+TMPL_ICON_GALLERY = "icon_gallery.tmpl"
 
 #########################
 # Class Auto Generation #

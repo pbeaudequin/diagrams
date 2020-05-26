@@ -41,6 +41,9 @@ for pvd in "${providers[@]}"; do
   fi
 done
 
+# Initialise Icon Gallery
+> docs/nodes/icon_gallery.md
+
 # generate the module classes and docs
 for pvd in "${providers[@]}"; do
   echo "generating the modules & docs for provider '$pvd'"

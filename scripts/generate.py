@@ -65,7 +65,7 @@ def make_apidoc(pvd: str, content: str) -> None:
         f.write(content)
 
 def make_icongallery(pvd: str, content: str) -> None:
-    """Append to icon gallery md file"""
+    """Append to icon gallery documentation file"""
     mod_path = os.path.join(doc_root_dir(), f"icon_gallery.md")
     with open(mod_path, "a+") as f:
         f.write(content)

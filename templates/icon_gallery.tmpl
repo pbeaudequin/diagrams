@@ -3,7 +3,8 @@
 
 {% for typ, classes in typ_classes.items() %}
 ## {{ pvd }}.{{ typ }}
+{{ classes|join(', ', attribute='name') }}
 {% for class in classes -%}
 <img src="../../resources/{{ pvd }}/{{ typ }}/{{ class['icon'] }}" width="75" height="75" title="{{ class['name'] }}{% if class['alias'] %}, {{ class['alias'] }} (alias){% endif %}"/> 
 {%- endfor %}
-{%- endfor %}
+{% endfor %}

@@ -17,7 +17,7 @@ _usage = "Usage: resources.py <cmd> <pvd>"
 
 
 def cleaner_onprem(f):
-    f = f.replace("_", "-")
+    f = f.replace("_", "-").replace(" ", "-")
     return f.lower()
 
 

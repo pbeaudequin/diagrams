@@ -664,9 +664,11 @@ Node classes list of onprem provider.
 ## onprem.ci
 
 - **diagrams.onprem.ci.Circleci**, **CircleCI** (alias)
+- **diagrams.onprem.ci.Gitlabci**, **GitlabCI** (alias)
 - **diagrams.onprem.ci.Jenkins**
 - **diagrams.onprem.ci.Teamcity**, **TC** (alias)
 - **diagrams.onprem.ci.Travisci**, **TravisCI** (alias)
+- **diagrams.onprem.ci.Zuulci**, **ZuulCI** (alias)
 
 ## onprem.client
 
@@ -711,6 +713,8 @@ Node classes list of onprem provider.
 ## onprem.gitops
 
 - **diagrams.onprem.gitops.Argocd**, **ArgoCD** (alias)
+- **diagrams.onprem.gitops.Flagger**
+- **diagrams.onprem.gitops.Flux**
 
 ## onprem.iac
 
@@ -727,6 +731,7 @@ Node classes list of onprem provider.
 
 ## onprem.logging
 
+- **diagrams.onprem.logging.Fluentbit**, **FluentBit** (alias)
 - **diagrams.onprem.logging.Fluentd**
 - **diagrams.onprem.logging.Logstash**, **LogStash** (alias)
 - **diagrams.onprem.logging.Loki**
@@ -741,6 +746,7 @@ Node classes list of onprem provider.
 - **diagrams.onprem.monitoring.Grafana**
 - **diagrams.onprem.monitoring.Kibana**
 - **diagrams.onprem.monitoring.Prometheus**
+- **diagrams.onprem.monitoring.Sentry**
 - **diagrams.onprem.monitoring.Splunk**
 - **diagrams.onprem.monitoring.Thanos**
 

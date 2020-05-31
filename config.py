@@ -11,7 +11,7 @@ DIR_APP_ROOT = "diagrams"
 DIR_RESOURCE = "resources"
 DIR_TEMPLATE = "templates"
 
-PROVIDERS = ("base", "onprem", "aws", "azure", "gcp", "k8s", "alibabacloud", "oci", "programming")
+PROVIDERS = ("base", "onprem", "aws", "azure", "gcp", "firebase", "k8s", "alibabacloud", "oci", "programming", "saas", "elastic")
 
 #########################
 #  Resource Processing  #
@@ -29,10 +29,13 @@ FILE_PREFIXES = {
     "aws": ("Amazon-", "AWS-"),
     "azure": ("Azure-",),
     "gcp": ("Cloud-",),
+    "firebase": ("Cloud-",),
     "k8s": (),
     "alibabacloud": (),
     "oci": ("OCI-",),
     "programming": (),
+    "saas": (),
+    "elastic": (),
 }
 
 #########################
@@ -48,14 +51,16 @@ TMPL_APIDOC = "apidoc.tmpl"
 TMPL_MODULE = "module.tmpl"
 
 UPPER_WORDS = {
-    "aws": ("aws", "api", "ebs", "ec2", "efs", "emr", "rds", "ml", "mq", "nat", "vpc", "waf"),
+    "aws": ("aws", "api", "ebs", "ec2", "efs", "emr", "rds", "ml", "mq", "nat", "vpc", "waf", "sdk"),
     "azure": ("ad", "b2c", "ai", "api", "cdn", "ddos", "dns", "fxt", "hana", "hd", "id", "sap", "sql", "vm"),
     "gcp": ("gcp", "ai", "api", "cdn", "dns", "gke", "gpu", "iap", "ml", "nat", "os", "sdk", "sql", "tpu", "vpn"),
+    "firebase": ("ab", "fcm", "ml"),
     "k8s": (
         "api", "cm", "ccm", "crb", "crd", "ds", "etcd", "hpa", "k8s", "ns", "psp", "pv", "pvc", "rb", "rs",
         "sa", "sc", "sts", "svc",
     ),
     "oci": ("oci",),
+    "elastic": ("apm", "siem", "ece", "eck"),
 }
 
 TITLE_WORDS = {
@@ -75,8 +80,10 @@ ALIASES = {
     "onprem": {
         "ci": {
             "Circleci": "CircleCI",
+            "Gitlabci": "GitlabCI",
             "Travisci": "TravisCI",
             "Teamcity": "TC",
+            "Zuulci": "ZuulCI",
         },
         "container": {
             "Rkt": "RKT",
@@ -98,6 +105,7 @@ ALIASES = {
             "Argocd": "ArgoCD",
         },
         "logging": {
+            "Fluentbit": "FluentBit",
             "Logstash": "LogStash",
         },
         "network": {
@@ -131,6 +139,8 @@ ALIASES = {
         "database": {
             "DatabaseMigrationService": "DMS",
             "DocumentdbMongodbCompatibility": "DocumentDB",
+            "DynamodbDax": "DAX",
+            "DynamodbGlobalSecondaryIndex": "DynamodbGSI",
             "Database": "DB",
             "Dynamodb": "DDB",
             "Elasticache": "ElastiCache",
@@ -143,6 +153,9 @@ ALIASES = {
         "engagement": {
             "SimpleEmailServiceSes": "SES",
         },
+        "general": {
+            "GenericOfficeBuilding": "OfficeBuilding",
+        },
         "integration": {
             "SimpleNotificationServiceSns": "SNS",
             "SimpleQueueServiceSqs": "SQS",
@@ -150,6 +163,7 @@ ALIASES = {
         },
         "iot": {
             "Freertos": "FreeRTOS",
+            "IotHardwareBoard": "IotBoard",
         },
         "management": {
             "SystemsManager": "SSM",
@@ -175,6 +189,10 @@ ALIASES = {
             "Cloudhsm": "CloudHSM",
             "DirectoryService": "DS",
             "FirewallManager": "FMS",
+            "IdentityAndAccessManagementIamAccessAnalyzer": "IAMAccessAnalyzer",
+            "IdentityAndAccessManagementIamAWSSts": "IAMAWSSts",
+            "IdentityAndAccessManagementIamPermissions": "IAMPermissions",
+            "IdentityAndAccessManagementIamRole": "IAMRole",
             "IdentityAndAccessManagementIam": "IAM",
             "KeyManagementService": "KMS",
             "ResourceAccessManager": "RAM",
@@ -226,6 +244,11 @@ ALIASES = {
         "storage": {
             "Storage": "GCS",
         },
+    },
+    "firebase": {
+        "grow": {
+            "Messaging": "FCM"
+        }
     },
     "k8s": {
         "clusterconfig": {
@@ -339,5 +362,11 @@ ALIASES = {
             "Php": "PHP",
             "Typescript": "TypeScript"
         },
+    },
+    "saas": {},
+    "elastic": {
+        "elasticsearch": {
+            "Logstash": "LogStash",
+        }
     },
 }

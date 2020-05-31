@@ -61,6 +61,9 @@ Node classes list of aws provider.
 - **diagrams.aws.database.DatabaseMigrationService**, **DMS** (alias)
 - **diagrams.aws.database.Database**, **DB** (alias)
 - **diagrams.aws.database.DocumentdbMongodbCompatibility**, **DocumentDB** (alias)
+- **diagrams.aws.database.DynamodbDax**, **DAX** (alias)
+- **diagrams.aws.database.DynamodbGlobalSecondaryIndex**, **DynamodbGSI** (alias)
+- **diagrams.aws.database.DynamodbTable**
 - **diagrams.aws.database.Dynamodb**, **DDB** (alias)
 - **diagrams.aws.database.Elasticache**, **ElastiCache** (alias)
 - **diagrams.aws.database.Neptune**
@@ -90,6 +93,24 @@ Node classes list of aws provider.
 - **diagrams.aws.engagement.Pinpoint**
 - **diagrams.aws.engagement.SimpleEmailServiceSes**, **SES** (alias)
 
+## aws.game
+
+- **diagrams.aws.game.Gamelift**
+
+## aws.general
+
+- **diagrams.aws.general.Disk**
+- **diagrams.aws.general.General**
+- **diagrams.aws.general.GenericDatabase**
+- **diagrams.aws.general.GenericFirewall**
+- **diagrams.aws.general.GenericOfficeBuilding**, **OfficeBuilding** (alias)
+- **diagrams.aws.general.GenericSamlToken**
+- **diagrams.aws.general.GenericSDK**
+- **diagrams.aws.general.Marketplace**
+- **diagrams.aws.general.TradicionalServer**
+- **diagrams.aws.general.User**
+- **diagrams.aws.general.Users**
+
 ## aws.integration
 
 - **diagrams.aws.integration.ApplicationIntegration**
@@ -106,15 +127,25 @@ Node classes list of aws provider.
 - **diagrams.aws.iot.Freertos**, **FreeRTOS** (alias)
 - **diagrams.aws.iot.InternetOfThings**
 - **diagrams.aws.iot.Iot1Click**
+- **diagrams.aws.iot.IotAlexaEcho**
+- **diagrams.aws.iot.IotAlexaSkill**
 - **diagrams.aws.iot.IotAnalytics**
 - **diagrams.aws.iot.IotButton**
+- **diagrams.aws.iot.IotCamera**
+- **diagrams.aws.iot.IotCertificate**
 - **diagrams.aws.iot.IotCore**
 - **diagrams.aws.iot.IotDeviceDefender**
 - **diagrams.aws.iot.IotDeviceManagement**
 - **diagrams.aws.iot.IotEvents**
 - **diagrams.aws.iot.IotGreengrass**
+- **diagrams.aws.iot.IotHardwareBoard**, **IotBoard** (alias)
+- **diagrams.aws.iot.IotJobs**
+- **diagrams.aws.iot.IotMqtt**
+- **diagrams.aws.iot.IotRule**
+- **diagrams.aws.iot.IotShadow**
 - **diagrams.aws.iot.IotSitewise**
 - **diagrams.aws.iot.IotThingsGraph**
+- **diagrams.aws.iot.IotTopic**
 
 ## aws.management
 
@@ -213,6 +244,12 @@ Node classes list of aws provider.
 - **diagrams.aws.network.VPCRouter**
 - **diagrams.aws.network.VPC**
 
+## aws.robotics
+
+- **diagrams.aws.robotics.RobomakerSimulator**
+- **diagrams.aws.robotics.Robomaker**
+- **diagrams.aws.robotics.Robotics**
+
 ## aws.security
 
 - **diagrams.aws.security.Artifact**
@@ -220,9 +257,14 @@ Node classes list of aws provider.
 - **diagrams.aws.security.CloudDirectory**
 - **diagrams.aws.security.Cloudhsm**, **CloudHSM** (alias)
 - **diagrams.aws.security.Cognito**
+- **diagrams.aws.security.Detective**
 - **diagrams.aws.security.DirectoryService**, **DS** (alias)
 - **diagrams.aws.security.FirewallManager**, **FMS** (alias)
 - **diagrams.aws.security.Guardduty**
+- **diagrams.aws.security.IdentityAndAccessManagementIamAccessAnalyzer**, **IAMAccessAnalyzer** (alias)
+- **diagrams.aws.security.IdentityAndAccessManagementIamAWSSts**, **IAMAWSSts** (alias)
+- **diagrams.aws.security.IdentityAndAccessManagementIamPermissions**, **IAMPermissions** (alias)
+- **diagrams.aws.security.IdentityAndAccessManagementIamRole**, **IAMRole** (alias)
 - **diagrams.aws.security.IdentityAndAccessManagementIam**, **IAM** (alias)
 - **diagrams.aws.security.Inspector**
 - **diagrams.aws.security.KeyManagementService**, **KMS** (alias)

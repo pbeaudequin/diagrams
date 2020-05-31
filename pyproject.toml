@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "diagrams1a"
+name = "diagrams"
 version = "0.11.0"
 description = "Diagram as Code"
 license = "MIT"

@@ -5,7 +5,9 @@
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 [![pypi version](https://badge.fury.io/py/diagrams.svg)](https://badge.fury.io/py/diagrams)
 ![python version](https://img.shields.io/badge/python-3.6%2C3.7%2C3.8-blue?logo=python)
+![Run tests](https://github.com/mingrammer/diagrams/workflows/Run%20tests/badge.svg?branch=master)
 [![todos](https://badgen.net/https/api.tickgit.com/badgen/github.com/mingrammer/diagrams?label=todos)](https://www.tickgit.com/browse?repo=github.com/mingrammer/diagrams)
+
 ![on premise provider](https://img.shields.io/badge/provider-OnPremise-orange?color=5f87bf)
 ![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900)
 ![azure provider](https://img.shields.io/badge/provider-Azure-orange?logo=microsoft-azure&color=0089d6)
@@ -14,6 +16,11 @@
 ![alibaba cloud provider](https://img.shields.io/badge/provider-AlibabaCloud-orange)
 ![oracle cloud provider](https://img.shields.io/badge/provider-OracleCloud-orange?logo=oracle&color=f80000)
 ![programming provider](https://img.shields.io/badge/provider-Programming-orange?color=5f87bf)
+![firebase provider](https://img.shields.io/badge/provider-Firebase-orange?logo=firebase&color=FFCA28)
+![elastic provider](https://img.shields.io/badge/provider-Elastic-orange?logo=elastic&color=005571)
+![saas provider](https://img.shields.io/badge/provider-SaaS-orange?color=5f87bf)
+
+<a href="https://www.buymeacoffee.com/mingrammer" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 **Diagram as Code**.
 

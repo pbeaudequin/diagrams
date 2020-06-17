@@ -648,11 +648,13 @@ Node classes list of onprem provider.
 ## onprem.analytics
 
 - **diagrams.onprem.analytics.Beam**
+- **diagrams.onprem.analytics.Dbt**
 - **diagrams.onprem.analytics.Flink**
 - **diagrams.onprem.analytics.Hadoop**
 - **diagrams.onprem.analytics.Hive**
 - **diagrams.onprem.analytics.Metabase**
 - **diagrams.onprem.analytics.Norikra**
+- **diagrams.onprem.analytics.Singer**
 - **diagrams.onprem.analytics.Spark**
 - **diagrams.onprem.analytics.Storm**
 - **diagrams.onprem.analytics.Tableau**
@@ -660,11 +662,13 @@ Node classes list of onprem provider.
 ## onprem.cd
 
 - **diagrams.onprem.cd.Spinnaker**
+- **diagrams.onprem.cd.TektonCli**
 - **diagrams.onprem.cd.Tekton**
 
 ## onprem.ci
 
 - **diagrams.onprem.ci.Circleci**, **CircleCI** (alias)
+- **diagrams.onprem.ci.Concourseci**, **ConcourseCI** (alias)
 - **diagrams.onprem.ci.Gitlabci**, **GitlabCI** (alias)
 - **diagrams.onprem.ci.Jenkins**
 - **diagrams.onprem.ci.Teamcity**, **TC** (alias)

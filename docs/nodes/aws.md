@@ -31,6 +31,21 @@ Node classes list of aws provider.
 - **diagrams.aws.analytics.RedshiftDenseStorageNode**
 - **diagrams.aws.analytics.Redshift**
 
+## aws.ar
+
+- **diagrams.aws.ar.Sumerian**
+
+## aws.blockchain
+
+- **diagrams.aws.blockchain.ManagedBlockchain**
+- **diagrams.aws.blockchain.QuantumLedgerDatabaseQldb**, **QLDB** (alias)
+
+## aws.business
+
+- **diagrams.aws.business.AlexaForBusiness**, **A4B** (alias)
+- **diagrams.aws.business.Chime**
+- **diagrams.aws.business.Workmail**
+
 ## aws.compute
 
 - **diagrams.aws.compute.ApplicationAutoScaling**, **AutoScaling** (alias)
@@ -54,6 +69,14 @@ Node classes list of aws provider.
 - **diagrams.aws.compute.ThinkboxStoke**
 - **diagrams.aws.compute.ThinkboxXmesh**
 - **diagrams.aws.compute.VmwareCloudOnAWS**
+
+## aws.cost
+
+- **diagrams.aws.cost.Budgets**
+- **diagrams.aws.cost.CostAndUsageReport**
+- **diagrams.aws.cost.CostExplorer**
+- **diagrams.aws.cost.ReservedInstanceReporting**
+- **diagrams.aws.cost.SavingsPlans**
 
 ## aws.database
 
@@ -86,6 +109,20 @@ Node classes list of aws provider.
 - **diagrams.aws.devtools.DeveloperTools**, **DevTools** (alias)
 - **diagrams.aws.devtools.ToolsAndSdks**
 - **diagrams.aws.devtools.XRay**
+
+## aws.enablement
+
+- **diagrams.aws.enablement.Iq**
+- **diagrams.aws.enablement.ManagedServices**
+- **diagrams.aws.enablement.ProfessionalServices**
+- **diagrams.aws.enablement.Support**
+
+## aws.enduser
+
+- **diagrams.aws.enduser.Appstream20**
+- **diagrams.aws.enduser.Workdocs**
+- **diagrams.aws.enduser.Worklink**
+- **diagrams.aws.enduser.Workspaces**
 
 ## aws.engagement
 
@@ -219,11 +256,23 @@ Node classes list of aws provider.
 - **diagrams.aws.ml.Polly**
 - **diagrams.aws.ml.Rekognition**
 - **diagrams.aws.ml.SagemakerGroundTruth**
+- **diagrams.aws.ml.SagemakerModel**
+- **diagrams.aws.ml.SagemakerNotebook**
+- **diagrams.aws.ml.SagemakerTrainingJob**
 - **diagrams.aws.ml.Sagemaker**
 - **diagrams.aws.ml.TensorflowOnAWS**
 - **diagrams.aws.ml.Textract**
 - **diagrams.aws.ml.Transcribe**
 - **diagrams.aws.ml.Translate**
+
+## aws.mobile
+
+- **diagrams.aws.mobile.Amplify**
+- **diagrams.aws.mobile.APIGatewayEndpoint**
+- **diagrams.aws.mobile.APIGateway**
+- **diagrams.aws.mobile.Appsync**
+- **diagrams.aws.mobile.DeviceFarm**
+- **diagrams.aws.mobile.Pinpoint**
 
 ## aws.network
 
@@ -251,11 +300,19 @@ Node classes list of aws provider.
 - **diagrams.aws.network.VPCRouter**
 - **diagrams.aws.network.VPC**
 
+## aws.quantum
+
+- **diagrams.aws.quantum.Braket**
+
 ## aws.robotics
 
 - **diagrams.aws.robotics.RobomakerSimulator**
 - **diagrams.aws.robotics.Robomaker**
 - **diagrams.aws.robotics.Robotics**
+
+## aws.satellite
+
+- **diagrams.aws.satellite.GroundStation**
 
 ## aws.security
 

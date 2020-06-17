@@ -85,6 +85,7 @@ ALIASES = {
     "onprem": {
         "ci": {
             "Circleci": "CircleCI",
+            "Concourseci": "ConcourseCI",
             "Gitlabci": "GitlabCI",
             "Travisci": "TravisCI",
             "Teamcity": "TC",
@@ -132,6 +133,12 @@ ALIASES = {
     "aws": {
         "analytics": {
             "ElasticsearchService": "ES",
+        },
+        "business": {
+            "AlexaForBusiness": "A4B"
+        },
+        "blockchain": {
+            "QuantumLedgerDatabaseQldb": "QLDB"
         },
         "compute": {
             "ApplicationAutoScaling": "AutoScaling",

@@ -13,6 +13,10 @@ Node classes list of generic provider.
 
 - **diagrams.generic.compute.Rack**
 
+## generic.database
+
+- **diagrams.generic.database.SQL**
+
 ## generic.device
 
 - **diagrams.generic.device.Mobile**
@@ -22,6 +26,7 @@ Node classes list of generic provider.
 
 - **diagrams.generic.network.Firewall**
 - **diagrams.generic.network.Router**
+- **diagrams.generic.network.Subnet**
 - **diagrams.generic.network.Switch**
 - **diagrams.generic.network.VPN**
 

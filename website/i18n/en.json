@@ -32,8 +32,17 @@
       "nodes/azure": {
         "title": "Azure"
       },
+      "nodes/elastic": {
+        "title": "Elastic"
+      },
+      "nodes/firebase": {
+        "title": "Firebase"
+      },
       "nodes/gcp": {
         "title": "GCP"
+      },
+      "nodes/generic": {
+        "title": "Generic"
       },
       "nodes/k8s": {
         "title": "K8S"
@@ -44,15 +53,25 @@
       "nodes/onprem": {
         "title": "OnPrem"
       },
+      "nodes/openstack": {
+        "title": "OpenStack"
+      },
+      "nodes/outscale": {
+        "title": "Outscale"
+      },
       "nodes/programming": {
         "title": "Programming"
+      },
+      "nodes/saas": {
+        "title": "Saas"
       }
     },
     "links": {
       "Docs": "Docs",
       "Guides": "Guides",
       "Nodes": "Nodes",
-      "GitHub": "GitHub"
+      "GitHub": "GitHub",
+      "Sponsoring": "Sponsoring"
     },
     "categories": {
       "Getting Started": "Getting Started",

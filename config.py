@@ -11,7 +11,9 @@ DIR_APP_ROOT = "diagrams"
 DIR_RESOURCE = "resources"
 DIR_TEMPLATE = "templates"
 
-PROVIDERS = ("base", "onprem", "aws", "azure", "gcp", "k8s", "alibabacloud", "oci", "programming")
+PROVIDERS = (
+    "base", "onprem", "aws", "azure", "gcp", "firebase", "k8s", "alibabacloud", "oci", "programming", "saas", "elastic",
+    "generic", "openstack", "outscale")
 
 #########################
 #  Resource Processing  #
@@ -20,7 +22,7 @@ PROVIDERS = ("base", "onprem", "aws", "azure", "gcp", "k8s", "alibabacloud", "oc
 CMD_ROUND = "round"
 CMD_ROUND_OPTS = ("-w",)
 CMD_SVG2PNG = "inkscape"
-CMD_SVG2PNG_OPTS = ("-z", "-w", "256", "-h", "256", "--export-type", "png")
+CMD_SVG2PNG_OPTS = ("-w", "256", "-h", "256", "--export-type", "png")
 CMD_SVG2PNG_IM = "convert"
 CMD_SVG2PNG_IM_OPTS = ("-shave", "25%x25%", "-resize", "256x256!")
 
@@ -29,10 +31,16 @@ FILE_PREFIXES = {
     "aws": ("Amazon-", "AWS-"),
     "azure": ("Azure-",),
     "gcp": ("Cloud-",),
+    "firebase": ("Cloud-",),
     "k8s": (),
     "alibabacloud": (),
-    "oci": ("OCI-",),
+    "oci": ("OCI-icon-",),
     "programming": (),
+    "saas": (),
+    "elastic": (),
+    "outscale": (),
+    "generic": (),
+    "openstack": (),
 }
 
 #########################
@@ -48,14 +56,20 @@ TMPL_APIDOC = "apidoc.tmpl"
 TMPL_MODULE = "module.tmpl"
 
 UPPER_WORDS = {
-    "aws": ("aws", "api", "ebs", "ec2", "efs", "emr", "rds", "ml", "mq", "nat", "vpc", "waf"),
+    "aws": ("aws", "api", "ebs", "ec2", "efs", "emr", "rds", "ml", "mq", "nat", "vpc", "waf", "sdk"),
     "azure": ("ad", "b2c", "ai", "api", "cdn", "ddos", "dns", "fxt", "hana", "hd", "id", "sap", "sql", "vm"),
     "gcp": ("gcp", "ai", "api", "cdn", "dns", "gke", "gpu", "iap", "ml", "nat", "os", "sdk", "sql", "tpu", "vpn"),
+    "firebase": ("ab", "fcm", "ml"),
     "k8s": (
         "api", "cm", "ccm", "crb", "crd", "ds", "etcd", "hpa", "k8s", "ns", "psp", "pv", "pvc", "rb", "rs",
         "sa", "sc", "sts", "svc",
     ),
-    "oci": ("oci",),
+    "oci": ("oci", "ocid", "oke", "ocir", "ddos", "waf", "bm", "vm", "cdn", "vpn", "dns", "nat", "dms", "api", "id"),
+    "elastic": ("apm", "siem", "ece", "eck"),
+    "generic": ("vpn", "ios", "xen", "sql", "lxc"),
+    "outscale": ("osc",),
+    "openstack": ("rpm", "loci", "nfv", "ec2api"),
+    "pve": ("pve"),
 }
 
 TITLE_WORDS = {
@@ -67,7 +81,10 @@ TITLE_WORDS = {
     },
     "aws": {
         "cloudfront": "CloudFront"
-    }
+    },
+    "openstack": {
+        "openstack": "OpenStack"
+    },
 }
 
 # TODO: check if the classname exists
@@ -75,10 +92,15 @@ ALIASES = {
     "onprem": {
         "ci": {
             "Circleci": "CircleCI",
+            "Concourseci": "ConcourseCI",
+            "Droneci": "DroneCI",
+            "Gitlabci": "GitlabCI",
             "Travisci": "TravisCI",
             "Teamcity": "TC",
+            "Zuulci": "ZuulCI",
         },
         "container": {
+            "Lxc": "LXC",
             "Rkt": "RKT",
         },
         "database": {
@@ -98,18 +120,28 @@ ALIASES = {
             "Argocd": "ArgoCD",
         },
         "logging": {
-            "Logstash": "LogStash",
+            "Fluentbit": "FluentBit",
+            "Rsyslog": "RSyslog",
         },
         "network": {
             "Etcd": "ETCD",
             "Haproxy": "HAProxy",
+            "OpenServiceMesh": "OSM",
+            "Opnsense": "OPNSense",
             "Pfsense": "PFSense",
             "Vyos": "VyOS"
+        },
+        "proxmox": {
+            "Pve": "ProxmoxVE",
         },
         "queue": {
             "Activemq": "ActiveMQ",
             "Rabbitmq": "RabbitMQ",
             "Zeromq": "ZeroMQ",
+        },
+        "storage": {
+            "Ceph": "CEPH",
+            "CephOsd": "CEPH_OSD",
         },
         "workflow": {
             "Kubeflow": "KubeFlow",
@@ -119,6 +151,12 @@ ALIASES = {
     "aws": {
         "analytics": {
             "ElasticsearchService": "ES",
+        },
+        "business": {
+            "AlexaForBusiness": "A4B"
+        },
+        "blockchain": {
+            "QuantumLedgerDatabaseQldb": "QLDB"
         },
         "compute": {
             "ApplicationAutoScaling": "AutoScaling",
@@ -131,6 +169,8 @@ ALIASES = {
         "database": {
             "DatabaseMigrationService": "DMS",
             "DocumentdbMongodbCompatibility": "DocumentDB",
+            "DynamodbDax": "DAX",
+            "DynamodbGlobalSecondaryIndex": "DynamodbGSI",
             "Database": "DB",
             "Dynamodb": "DDB",
             "Elasticache": "ElastiCache",
@@ -143,6 +183,9 @@ ALIASES = {
         "engagement": {
             "SimpleEmailServiceSes": "SES",
         },
+        "general": {
+            "GenericOfficeBuilding": "OfficeBuilding",
+        },
         "integration": {
             "SimpleNotificationServiceSns": "SNS",
             "SimpleQueueServiceSqs": "SQS",
@@ -150,6 +193,7 @@ ALIASES = {
         },
         "iot": {
             "Freertos": "FreeRTOS",
+            "IotHardwareBoard": "IotBoard",
         },
         "management": {
             "SystemsManager": "SSM",
@@ -175,6 +219,10 @@ ALIASES = {
             "Cloudhsm": "CloudHSM",
             "DirectoryService": "DS",
             "FirewallManager": "FMS",
+            "IdentityAndAccessManagementIamAccessAnalyzer": "IAMAccessAnalyzer",
+            "IdentityAndAccessManagementIamAWSSts": "IAMAWSSts",
+            "IdentityAndAccessManagementIamPermissions": "IAMPermissions",
+            "IdentityAndAccessManagementIamRole": "IAMRole",
             "IdentityAndAccessManagementIam": "IAM",
             "KeyManagementService": "KMS",
             "ResourceAccessManager": "RAM",
@@ -227,6 +275,11 @@ ALIASES = {
             "Storage": "GCS",
         },
     },
+    "firebase": {
+        "grow": {
+            "Messaging": "FCM"
+        }
+    },
     "k8s": {
         "clusterconfig": {
             "Limits": "LimitRange",
@@ -263,7 +316,7 @@ ALIASES = {
             "SA": "ServiceAccount",
         },
         "storage": {
-            "PV": "PersistnetVolume",
+            "PV": "PersistentVolume",
             "PVC": "PersistentVolumeClaim",
             "SC": "StorageClass",
             "Vol": "Volume",
@@ -322,14 +375,20 @@ ALIASES = {
     },
     "oci": {
         "compute": {
-            "Vm": "VirtualMachine",
-            "VmGrey": "VirtualMachineGrey",
-            "Bm": "BareMetal",
-            "BmGrey": "BareMetalGrey",
+            "VM": "VirtualMachine",
+            "VMWhite": "VirtualMachineWhite",
+            "BM": "BareMetal",
+            "BMWhite": "BareMetalWhite",
+            "OCIR": "OCIRegistry",
+            "OCIRWhite": "OCIRegistryWhite",
+            "OKE": "ContainerEngine",
+            "OKEWhite": "ContainerEngineWhite",
         },
         "database": {
+            "AutonomousDatabase": "ADB",
+            "AutonomousDatabaseWhite": "ADBWhite",
             "Databaseservice": "DBService",
-            "DatabaseserviceGrey": "DBServiceGrey",
+            "DatabaseserviceWhite": "DBServiceWhite",
         }
     },
     "programming": {
@@ -339,5 +398,31 @@ ALIASES = {
             "Php": "PHP",
             "Typescript": "TypeScript"
         },
+    },
+    "saas": {
+        "logging": {
+            "Datadog": "DataDog",
+        }
+    },
+    "elastic": {
+        "elasticsearch": {
+            "Logstash": "LogStash",
+        }
+    },
+    "outscale": {
+        "Osc": "OSC",
+    },
+    "generic": {},
+    "openstack": {
+        "user": {
+            "Openstackclient": "OpenStackClient",
+        },
+        "billing": {
+            "Cloudkitty": "CloudKitty",
+        },
+        "deployment": {
+            "Kolla": "KollaAnsible",
+            "Tripleo": "TripleO",
+        }
     },
 }

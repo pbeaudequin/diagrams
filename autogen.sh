@@ -4,7 +4,7 @@ set -e
 app_root_dir="diagrams"
 
 # NOTE: azure icon set is not latest version
-providers=("onprem" "aws" "azure" "gcp" "k8s" "alibabacloud" "oci" "programming")
+providers=("onprem" "aws" "azure" "gcp" "firebase" "k8s" "alibabacloud" "oci" "programming" "saas" "elastic" "generic" "openstack" "outscale")
 
 if ! [ -x "$(command -v round)" ]; then
   echo 'round is not installed'
@@ -18,6 +18,11 @@ fi
 
 if ! [ -x "$(command -v convert)" ]; then
   echo 'image magick is not installed'
+  exit 1
+fi
+
+if ! [ -x "$(command -v black)" ]; then
+  echo 'black is not installed'
   exit 1
 fi
 

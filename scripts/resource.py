@@ -13,7 +13,7 @@ import sys
 import config as cfg
 from . import resource_dir
 
-_usage = "Usage: resources.py <cmd> <pvd>"
+_usage = "Usage: resource.py <cmd> <pvd>"
 
 
 def cleaner_onprem(f):
@@ -24,6 +24,9 @@ def cleaner_onprem(f):
 def cleaner_aws(f):
     f = f.replace("_", "-")
     f = f.replace("@4x", "")
+    f = f.replace("@5x", "")
+    f = f.replace("2.0", "2-0")
+    f = f.replace("-light-bg4x", "")
     f = f.replace("-light-bg", "")
     for p in cfg.FILE_PREFIXES["aws"]:
         if f.startswith(p):
@@ -53,6 +56,16 @@ def cleaner_gcp(f):
     return f.lower()
 
 
+def cleaner_firebase(f):
+    f = f.replace("_", "-")
+    f = "-".join(f.split())
+    for p in cfg.FILE_PREFIXES["firebase"]:
+        if f.startswith(p):
+            f = f[len(p) :]
+            break
+    return f.lower()
+
+
 def cleaner_k8s(f):
     f = f.replace("-256", "")
     for p in cfg.FILE_PREFIXES["k8s"]:
@@ -71,8 +84,8 @@ def cleaner_alibabacloud(f):
 
 
 def cleaner_oci(f):
+    f = f.replace(" ", "-")
     f = f.replace("_", "-")
-    f = f.replace("-red", "")
     for p in cfg.FILE_PREFIXES["oci"]:
         if f.startswith(p):
             f = f[len(p) :]
@@ -84,15 +97,41 @@ def cleaner_programming(f):
     return f.lower()
 
 
+def cleaner_generic(f):
+    return f.lower()
+
+
+def cleaner_saas(f):
+    return f.lower()
+
+
+def cleaner_elastic(f):
+    return f.lower()
+
+
+def cleaner_outscale(f):
+    return f.lower()
+
+
+def cleaner_openstack(f):
+    return f.lower()
+
+
 cleaners = {
     "onprem": cleaner_onprem,
     "aws": cleaner_aws,
     "azure": cleaner_azure,
     "gcp": cleaner_gcp,
+    "firebase": cleaner_firebase,
     "k8s": cleaner_k8s,
     "alibabacloud": cleaner_alibabacloud,
     "oci": cleaner_oci,
     "programming": cleaner_programming,
+    "saas": cleaner_saas,
+    "elastic": cleaner_elastic,
+    "outscale": cleaner_outscale,
+    "generic": cleaner_generic,
+    "openstack": cleaner_openstack,
 }
 
 

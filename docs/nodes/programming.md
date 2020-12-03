@@ -26,6 +26,8 @@ Node classes list of programming provider.
 - **diagrams.programming.language.Cpp**
 - **diagrams.programming.language.Csharp**
 - **diagrams.programming.language.Dart**
+- **diagrams.programming.language.Elixir**
+- **diagrams.programming.language.Erlang**
 - **diagrams.programming.language.Go**
 - **diagrams.programming.language.Java**
 - **diagrams.programming.language.Javascript**, **JavaScript** (alias)
@@ -36,5 +38,6 @@ Node classes list of programming provider.
 - **diagrams.programming.language.Python**
 - **diagrams.programming.language.R**
 - **diagrams.programming.language.Ruby**
+- **diagrams.programming.language.Rust**
 - **diagrams.programming.language.Swift**
 - **diagrams.programming.language.Typescript**, **TypeScript** (alias)

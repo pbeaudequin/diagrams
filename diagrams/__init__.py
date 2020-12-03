@@ -39,6 +39,7 @@ def setcluster(cluster):
 
 class Diagram:
     __directions = ("TB", "BT", "LR", "RL")
+    __curvestyles = ("ortho", "curved")
     __outformats = ("png", "jpg", "svg", "pdf")
 
     # fmt: off
@@ -59,6 +60,8 @@ class Diagram:
         "height": "1.4",
         "labelloc": "b",
         # imagepos attribute is not backward compatible
+        # TODO: check graphviz version to see if "imagepos" is available >= 2.40
+        # https://github.com/xflr6/graphviz/blob/master/graphviz/backend.py#L248
         # "imagepos": "tc",
         "imagescale": "true",
         "fontname": "Sans-Serif",
@@ -78,6 +81,7 @@ class Diagram:
         name: str = "",
         filename: str = "",
         direction: str = "LR",
+        curvestyle: str = "ortho",
         outformat: str = "png",
         show: bool = True,
         graph_attr: dict = {},
@@ -91,6 +95,7 @@ class Diagram:
         :param filename: The output filename, without the extension (.png).
             If not given, it will be generated from the name.
         :param direction: Data flow direction. Default is 'left to right'.
+        :param curvestyle: Curve bending style. One of "ortho" or "curved".
         :param outformat: Output file format. Default is 'png'.
         :param show: Open generated image after save if true, just only save otherwise.
         :param graph_attr: Provide graph_attr dot config attributes.
@@ -98,8 +103,9 @@ class Diagram:
         :param edge_attr: Provide edge_attr dot config attributes.
         """
         self.name = name
-
-        if not filename:
+        if not name and not filename:
+          filename = "diagrams_image"
+        elif not filename:
             filename = "_".join(self.name.split()).lower()
         self.filename = filename
         self.dot = Digraph(self.name, filename=self.filename)
@@ -116,6 +122,10 @@ class Diagram:
         if not self._validate_direction(direction):
             raise ValueError(f'"{direction}" is not a valid direction')
         self.dot.graph_attr["rankdir"] = direction
+
+        if not self._validate_curvestyle(curvestyle):
+            raise ValueError(f'"{curvestyle}" is not a valid curvestyle')
+        self.dot.graph_attr["splines"] = curvestyle
 
         if not self._validate_outformat(outformat):
             raise ValueError(f'"{outformat}" is not a valid output format')
@@ -151,6 +161,13 @@ class Diagram:
                 return True
         return False
 
+    def _validate_curvestyle(self, curvestyle: str) -> bool:
+        curvestyle = curvestyle.lower()
+        for v in self.__curvestyles:
+            if v == curvestyle:
+                return True
+        return False
+
     def _validate_outformat(self, outformat: str) -> bool:
         outformat = outformat.lower()
         for v in self.__outformats:
@@ -171,7 +188,7 @@ class Diagram:
         self.dot.subgraph(dot)
 
     def render(self) -> None:
-        self.dot.render(format=self.outformat, view=self.show)
+        self.dot.render(format=self.outformat, view=self.show, quiet=True)
 
 
 class Cluster:
@@ -267,7 +284,7 @@ class Node:
 
     _height = 1.9
 
-    def __init__(self, label: str = ""):
+    def __init__(self, label: str = "", **attrs: Dict):
         """Node represents a system component.
 
         :param label: Node label.
@@ -281,12 +298,14 @@ class Node:
         # that label being spanned between icon image and white space.
         # Increase the height by the number of new lines included in the label.
         padding = 0.4 * (label.count('\n'))
-        self.attrs = {
+        self._attrs = {
             "shape": "none",
             "height": str(self._height + padding),
             "image": self._load_icon(),
         } if self._icon else {}
+
         # fmt: on
+        self._attrs.update(attrs)
 
         # Node must be belong to a diagrams.
         self._diagram = getdiagram()
@@ -296,9 +315,9 @@ class Node:
 
         # If a node is in the cluster context, add it to cluster.
         if self._cluster:
-            self._cluster.node(self._id, self.label, **self.attrs)
+            self._cluster.node(self._id, self.label, **self._attrs)
         else:
-            self._diagram.node(self._id, self.label, **self.attrs)
+            self._diagram.node(self._id, self.label, **self._attrs)
 
     def __repr__(self):
         _name = self.__class__.__name__
@@ -443,7 +462,8 @@ class Edge:
 
         if label:
             # Graphviz complaining about using label for edges, so replace it with xlabel.
-            self._attrs["xlabel"] = label
+            # Update: xlabel option causes the misaligned label position: https://github.com/mingrammer/diagrams/issues/83
+            self._attrs["label"] = label
         if color:
             self._attrs["color"] = color
         if style:

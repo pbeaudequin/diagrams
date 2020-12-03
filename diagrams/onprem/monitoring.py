@@ -8,6 +8,10 @@ class _Monitoring(_OnPrem):
     _icon_dir = "resources/onprem/monitoring"
 
 
+class Cortex(_Monitoring):
+    _icon = "cortex.png"
+
+
 class Datadog(_Monitoring):
     _icon = "datadog.png"
 
@@ -16,12 +20,16 @@ class Grafana(_Monitoring):
     _icon = "grafana.png"
 
 
-class Kibana(_Monitoring):
-    _icon = "kibana.png"
+class PrometheusOperator(_Monitoring):
+    _icon = "prometheus-operator.png"
 
 
 class Prometheus(_Monitoring):
     _icon = "prometheus.png"
+
+
+class Sentry(_Monitoring):
+    _icon = "sentry.png"
 
 
 class Splunk(_Monitoring):
@@ -30,6 +38,10 @@ class Splunk(_Monitoring):
 
 class Thanos(_Monitoring):
     _icon = "thanos.png"
+
+
+class Zabbix(_Monitoring):
+    _icon = "zabbix.png"
 
 
 # Aliases
